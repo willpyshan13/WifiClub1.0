@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_yyyy_mm_dd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/date_format_yyyy_mm_dd"
+            android:textColor="@color/common_blue"
+            android:background="#ffffff"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue"/>
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_dd_mm_yyyy"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/date_format_dd_mm_yyyy"
+            android:textColor="@color/common_blue"
+            android:background="#ffffff"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue"/>
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_mm_dd_yyyy"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/date_format_mm_dd_yyyy"
+            android:textColor="@color/common_blue"
+            android:background="#ffffff"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</RelativeLayout>

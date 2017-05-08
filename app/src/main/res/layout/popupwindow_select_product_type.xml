@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/icon_caddie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="150dp"
+                android:contentDescription="@string/common_ok"
+                android:gravity="center"
+                android:src="@drawable/icon_shops_product_edit_caddie_select"/>
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_caddie"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/shop_setting_caddie"
+                android:textColor="@color/common_blue"
+                android:textIsSelectable="true"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/icon_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="150dp"
+                android:contentDescription="@string/common_ok"
+                android:src="@drawable/icon_shops_product_edit_cart_select"/>
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/shop_setting_cart"
+                android:textColor="@color/common_blue"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/icon_clubs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="150dp"
+                android:contentDescription="@string/common_ok"
+                android:src="@drawable/icon_shops_product_edit_clubs_select"/>
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_clubs"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/shop_setting_clubs"
+                android:textColor="@color/common_blue"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/icon_shoes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="150dp"
+                android:contentDescription="@string/common_ok"
+                android:src="@drawable/icon_shops_product_edit_shoes_select"/>
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_shoes"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/shop_setting_shoes"
+                android:textColor="@color/common_blue"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/icon_trolley"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="150dp"
+                android:contentDescription="@string/common_ok"
+                android:src="@drawable/icon_shops_product_edit_trolley_select"/>
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_trolley"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/shop_setting_trolley"
+                android:textColor="@color/common_blue"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/icon_umbrella"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="150dp"
+                android:contentDescription="@string/common_ok"
+                android:src="@drawable/icon_shops_product_edit_umbrella_select"/>
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_umbrella"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/shop_setting_umbrella"
+                android:textColor="@color/common_blue"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/icon_towel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="150dp"
+                android:contentDescription="@string/common_ok"
+                android:src="@drawable/icon_shops_product_edit_towel_select"/>
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_towel"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="5dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="@string/shop_setting_towel"
+                android:textColor="@color/common_blue"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue"/>
+
+    </LinearLayout>
+</LinearLayout>

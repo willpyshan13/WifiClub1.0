@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cn.situne.itee">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19"
+        tools:overrideLibrary="com.squareup.timessquare,     com.viewpagerindicator,com.handmark.pulltorefresh.library,com.baoyz.actionsheet,     com.mining.app.zxing,org.xclcharts.chart" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-feature android:name="android.hardware.nfc" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".manager.IteeApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/title_about"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.ForgotPasswordActivity"
+            android:label="@string/title_forgot_password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ChangeTempPassword"
+            android:label="@string/title_change_password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ScanQrCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.SegmentTimeEditOrDeletePopupWindow"
+            android:theme="@style/MyDialogStyleBottom" />
+        <activity
+            android:name=".activity.SelectPhotoActivity"
+            android:hardwareAccelerated="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogGray" />
+        <activity
+            android:name=".activity.QuickScanQrCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" />
+        <activity
+            android:name=".activity.ProductScanQrCodeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" />
+
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService" />
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".activity.SelectAddressActivity"
+            android:label="@string/title_forgot_password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ShoppingSearchProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SelectDateActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55471e1a67e58e157100468b" />
+
+        <activity
+            android:name=".activity.PrivacyActivity"
+            android:label="@string/title_activity_privacy"></activity>
+    </application>
+
+</manifest>

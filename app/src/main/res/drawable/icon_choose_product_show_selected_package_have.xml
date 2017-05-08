@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_pressed="true" android:drawable="@drawable/icon_choose_product_show_selected_package_have_selected">
+</item>
+<item android:state_focused="false" android:state_pressed="false" android:drawable="@drawable/icon_choose_product_show_selected_package_have_normal">
+</item>
+<item android:state_focused="false" android:drawable="@drawable/icon_choose_product_show_selected_package_have_normal">
+</item>
+</selector>

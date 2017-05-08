@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/common_white">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_addCourse_key"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/tv_addCourse_value"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                android:textColor="@color/common_gray"
+                android:background="@null" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_addHole_key"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/tv_addHole_value"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                android:textColor="@color/common_gray"
+                android:background="@null" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_addTCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_addTCourse_key"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/tv_addTCourse_value"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                android:textColor="@color/common_gray"
+                android:background="@null" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_addTTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_addTTime_key"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_calculate"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/tv_addTTime_value"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                android:textColor="@color/common_gray"
+                android:background="@null" />
+        </RelativeLayout>
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_tee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_tee"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+
+            <ImageView
+                android:id="@+id/iv_tee"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_add_HoleOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleOne_key"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleOne_value"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                android:textColor="@color/common_gray"
+                android:background="@null" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_add_HoleTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleTwo_key"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleTwo_value"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                android:textColor="@color/common_gray"
+                android:background="@null" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_add_HoleThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleThree_key"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleThree_value"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                android:textColor="@color/common_gray"
+                android:background="@null" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_add_HoleFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleFour_key"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleFour_value"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                android:textColor="@color/common_gray"
+                android:background="@null" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_add_HoleFive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleFive_key"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleFive_value"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                android:textColor="@color/common_gray"
+                android:background="@null" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_add_HoleSix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleSix_key"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleSix_value"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                android:textColor="@color/common_gray"
+                android:background="@null" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_add_HoleSeven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleSeven_key"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleSeven_value"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                android:textColor="@color/common_gray"
+                android:background="@null" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_add_HoleEight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleEight_key"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_add_HoleEight_value"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                android:textColor="@color/common_gray"
+                android:background="@null" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_add_HoleNine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_addNine_key"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/common_black"
+                android:textSize="15sp" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_addNine_value"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:textSize="15sp"
+                android:textColor="@color/common_gray"
+                android:background="@null" />
+        </RelativeLayout>
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_delete"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\workspace\\android\\actionSheet4Android\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\slt_as_ios7_other_bt_single.xml",
+        "source": "E:\\workspace\\android\\actionSheet4Android\\build\\intermediates\\bundles\\debug\\res\\drawable\\slt_as_ios7_other_bt_single.xml"
+    },
+    {
+        "merged": "E:\\workspace\\android\\actionSheet4Android\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\slt_as_ios7_other_bt_bottom.xml",
+        "source": "E:\\workspace\\android\\actionSheet4Android\\build\\intermediates\\bundles\\debug\\res\\drawable\\slt_as_ios7_other_bt_bottom.xml"
+    },
+    {
+        "merged": "E:\\workspace\\android\\actionSheet4Android\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\slt_as_ios7_other_bt_top.xml",
+        "source": "E:\\workspace\\android\\actionSheet4Android\\build\\intermediates\\bundles\\debug\\res\\drawable\\slt_as_ios7_other_bt_top.xml"
+    },
+    {
+        "merged": "E:\\workspace\\android\\actionSheet4Android\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\slt_as_ios7_other_bt_middle.xml",
+        "source": "E:\\workspace\\android\\actionSheet4Android\\build\\intermediates\\bundles\\debug\\res\\drawable\\slt_as_ios7_other_bt_middle.xml"
+    },
+    {
+        "merged": "E:\\workspace\\android\\actionSheet4Android\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\slt_as_ios7_cancel_bt.xml",
+        "source": "E:\\workspace\\android\\actionSheet4Android\\build\\intermediates\\bundles\\debug\\res\\drawable\\slt_as_ios7_cancel_bt.xml"
+    }
+]

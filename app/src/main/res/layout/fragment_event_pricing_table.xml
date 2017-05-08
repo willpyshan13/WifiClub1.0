@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_content_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_white">
+
+    <RelativeLayout
+        android:id="@+id/rl_choose_product_container"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:orientation="vertical"
+        android:paddingRight="40px"
+        android:background="@drawable/bg_linear_selector_color_white">
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_choose_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/event_choose_product"
+            android:layout_centerVertical="true"
+            android:textColor="@color/common_black"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_black"
+            android:layout_centerVertical="true"
+
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/rl_choose_product_container"
+        android:background="@color/common_separator_gray"
+        android:id="@+id/line"
+
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/line">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/body"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

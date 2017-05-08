@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/common_white"
+        android:id="@+id/ll_pull_down_refresh">
+
+        <RelativeLayout
+            android:id="@+id/rl_tv_container"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:background="@color/common_red">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_desc_list_pull_down_refresh"
+                android:layout_width="wrap_content"
+                android:textColor="@color/common_white"
+                android:textSize="18sp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="match_parent"
+                android:text="@string/app_list_header_refresh_down" />
+
+            <ProgressBar
+                android:layout_centerVertical="true"
+                android:indeterminateDrawable="@drawable/list_pull_down_refresh_progressbar"
+                android:id="@+id/pb_list_pull_down_refresh"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toLeftOf="@id/tv_desc_list_pull_down_refresh" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_last_update_time_list_pull_down_refresh"
+                android:layout_width="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

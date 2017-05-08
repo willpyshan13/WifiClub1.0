@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_sliding_menu_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_menu_selected_mark"
+                android:layout_width="10dp"
+                android:layout_height="match_parent" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_menu_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:gravity="bottom"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="40dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="-5dp"
+                android:background="@drawable/list_row_seperator" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_sliding_menu_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_menu_logout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:paddingStart="40dp"
+                android:paddingEnd="20dp"
+                android:background="@drawable/btn_logout_style" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_menu_border"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/menu_border" />
+
+</RelativeLayout>

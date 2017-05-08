@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/common_white"/>
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_show_message"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/common_white" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/common_blue" />
+
+        <LinearLayout
+            android:id="@+id/rl_ok_and_cancel_container"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="@string/common_ok"
+                android:textColor="@color/common_blue"
+                android:background="@color/common_white"
+                android:textSize="25sp" />
+
+            <View
+                android:layout_width="2px"
+                android:layout_height="match_parent"
+
+                android:background="@color/common_blue" />
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="@string/common_cancel"
+                android:background="@color/common_white"
+                android:textColor="@color/common_blue"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WiFiClub</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo_label">WIFICLUB</string>
+
+    <!-- common -->
+    <string name="common_today">今天</string>
+    <string name="common_ok">确定</string>
+
+    <string name="common_next">下一步</string>
+    <string name="common_in">IN</string>
+    <string name="common_search">搜索</string>
+    <string name="common_out">OUT</string>
+    <string name="common_on">On</string>
+    <string name="common_off">Off</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_no">No</string>
+    <string name="common_confirm">确定</string>
+    <string name="common_delete">删除</string>
+    <string name="common_save">保存</string>
+    <string name="common_edit">编辑</string>
+    <string name="common_add">新增</string>
+    <string name="common_select">选择</string>
+    <string name="common_undo">取消</string>
+    <string name="common_min">分钟</string>
+    <string name="common_uploading">上载中……</string>
+    <string name="common_remove">清空</string>
+    <string name="common_plus">+</string>
+    <string name="common_loading_failed">加载失败</string>
+    <string name="common_try_again">重新加载</string>
+    <string name="common_name">姓名</string>
+    <string name="common_photo">照片</string>
+    <string name="common_home">家庭</string>
+    <string name="common_work">工作</string>
+    <string name="common_age">年龄</string>
+    <string name="common_age_start">开始年龄</string>
+    <string name="common_age_end">结束年龄</string>
+    <string name="common_username">用户名</string>
+    <string name="common_password">密码</string>
+    <string name="common_required">必填</string>
+    <string name="common_week">星期</string>
+    <string name="common_confirm_delete">确定删除</string>
+    <string name="common_confirm_save">确定保存</string>
+    <string name="common_male">男</string>
+    <string name="common_female">女</string>
+    <string name="common_deselect">取消选择</string>
+    <string name="common_total">总金额</string>
+    <string name="common_operate_after_adding">(新增后可操作)</string>
+    <string name="common_must_be_filled_in">{0} 必须填写!</string>
+    <string name="common_must_be_larger_than">{0} 必须比 {1} 大</string>
+    <string name="common_log_in_elsewhere_exit_now">该帐号已在其他手机登录，重新登录</string>
+    <string name="common_password_size_message">密码长度应为6&#8211;16个字符</string>
+    <string name="common_username_size_message">用户名长度应为6&#8211;16个字符</string>
+    <string name="common_product">商品</string>
+    <string name="common_do_not_have_permission">没有相应的权限</string>
+    <string name="common_green_fee">果岭费</string>
+    <string name="common_holes">洞</string>
+    <string name="common_year">年</string>
+    <string name="common_month">月</string>
+    <string name="common_day">日</string>
+    <string name="common_hour">时</string>
+    <string name="common_minute">分</string>
+    <string name="common_none"> </string>
+    <string name="common_tel">电话 : </string>
+    <string name="common_start_date">开始日期</string>
+    <string name="common_end_date">截止日期</string>
+
+    <!-- error -->
+    <string name="error_mes00001">姓名不能为空</string>
+    <string name="error_mes00002">请输入正确的号码！</string>
+    <string name="error_mes00003">请输入正确的电话号码！</string>
+    <string name="error_mes00004">请输入正确的邮箱！</string>
+    <string name="error_mes00005">可签嘉宾数量不足</string>
+    <string name="error_mes00006">该段时间仅9洞可预约，确认继续？</string>
+    <string name="error_mes00007">已经有人结账了。</string>
+    <string name="error_mes00008">暂无可用球童。</string>
+
+    <!-- titles -->
+    <string name="title_about">关于WiFiClub</string>
+    <string name="title_forgot_password">忘记密码</string>
+    <string name="title_change_password">修改密码</string>
+    <string name="title_administration">高级设置</string>
+    <string name="title_city_select">城市</string>
+    <string name="title_timezone_select">时区</string>
+    <string name="title_currency_select">币别</string>
+    <string name="title_course_data">球场数据</string>
+    <string name="title_tee_times">场地资源</string>
+    <string name="title_shopping_setting">商店设置</string>
+    <string name="title_promote_shop">促销商店</string>
+    <string name="title_qr_code">二维码</string>
+    <string name="title_select_date">选择日期</string>
+
+    <!-- menu -->
+    <string name="menu_user_name">用户名</string>
+    <string name="menu_tee_times">预约/打球</string>
+    <string name="menu_events">活动</string>
+    <string name="menu_shops">商店</string>
+    <string name="menu_customers">客人</string>
+    <string name="menu_agents">经销商</string>
+    <string name="menu_staff">员工</string>
+    <string name="menu_news">新闻</string>
+    <string name="menu_charts">报表</string>
+    <string name="menu_administration">高级设置</string>
+    <string name="menu_scan_qr_code">扫一扫</string>
+    <string name="menu_logout">退出</string>
+    <string name="menu_separator">-</string>
+
+
+    <!-- login -->
+    <string name="login_btn_content">登录</string>
+    <string name="login_about">关于WiFiClub</string>
+    <string name="login_forgot_password">忘记密码？</string>
+    <string name="login_forgot_password_input_account">请输入您的用户名</string>
+
+    <!-- about -->
+    <string name="about_email">邮箱</string>
+    <string name="about_phone">电话</string>
+    <string name="about_office_address">地址</string>
+    <string name="about_email_content">Alex.armas@iteesystems.com</string>
+    <string name="about_phone_content">13333333333</string>
+    <string name="about_office_address_content">45 Wycombe End, Beaconsfield,\nBuckinghamshire,HP9 1LZ.</string>
+    <string name="about_version">版本</string>
+
+
+    <!-- forgot password -->
+    <string name="forgot_password">忘记密码</string>
+    <string name="forgot_password_account">请输入您的用户名</string>
+    <string name="forgot_password_send_random_password">发送随机密码</string>
+    <string name="forgot_password_tips">小贴士：临时密码将发送到您的手机或邮箱，请尽快登录系统修改您的密码。</string>
+
+    <!-- change password -->
+    <string name="change_password">修改密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="new_password">新密码</string>
+    <string name="old_password">旧密码</string>
+
+    <!-- add tee time -->
+    <string name="tee_time_setting">预约/打球设置</string>
+    <string name="transfer_time">转场时间</string>
+    <string name="title_activity_segment_times">特殊设置</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="add_message_text">新增客户资料</string>
+
+    <!-- 03-8-1 -->
+    <string name="segment_tee_times">预约/打球</string>
+    <string name="segment_segment_times">特殊设置</string>
+
+    <!-- New Tee Times -->
+    <string name="newteetimes_caddie">球童</string>
+    <string name="newteetimes_name_hint">名称</string>
+    <string name="newteetimes_tel_hint">电话</string>
+    <string name="newteetimes_tel_title_start">新的预约/打球(</string>
+    <string name="newteetimes_tel_title_end">)</string>
+    <string name="newteetimes_btn_incoming_add">新增</string>
+    <string name="newteetimes_btn_incoming_delete">删除</string>
+    <string name="newteetimes_btn_incoming_call">拨号</string>
+    <string name="newteetimes_btn_add_a_profile">新增客户资料</string>
+    <string name="teetimes_actionbar_incoming">来电记录</string>
+    <string name="msg_save_change">保存变更?</string>
+    <string name="msg_confirm_call">拨号：</string>
+    <string name="newteetimes_members">会员</string>
+    <string name="newteetimes_agents">经销商</string>
+    <string name="newteetimes_events">活动</string>
+    <string name="newteetimes_no_members">非会员</string>
+
+    <string name="newteetimes_menu_cart">球车</string>
+    <string name="newteetimes_menu_clubs">球杆</string>
+    <string name="newteetimes_menu_shoes">球鞋</string>
+    <string name="newteetimes_menu_trolley">手拖车</string>
+    <string name="newteetimes_menu_umbrella">伞</string>
+    <string name="newteetimes_menu_towel">毛巾</string>
+
+
+    <!-- CourseData -->
+    <string name="title_activity_new_course_message">OUT</string>
+    <string name="title_activity_single_hole_message">洞1</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_button">删除</string>
+    <string name="add_course">场地</string>
+    <string name="add_out">OUT</string>
+    <string name="add_holes">洞数</string>
+    <string name="add_yards">码/米</string>
+    <string name="add_index">难度系数</string>
+    <string name="index_enter">请输入1-18的整数</string>
+    <string name="add_transfer_course">转场场地</string>
+    <string name="add_in">IN</string>
+    <string name="add_transfer_time">转场时间</string>
+    <string name="add_calculate">自动计算</string>
+    <string name="add_tee">TEE</string>
+    <string name="add_time">2h30</string>
+    <string name="add_title_out">OUT</string>
+    <string name="add_title_add_course">添加球场</string>
+    <string name="par_is_not_null">标准杆不能为空</string>
+    <string name="please_enter_time">请输入时间</string>
+    <string name="time_is_out_of_range">时间超出范围</string>
+    <string name="course_hole_setting_hole_no">洞号</string>
+    <string name="course_add_tee">新增TEE</string>
+    <string name="course_name_is_not_null">球场名不能为空</string>
+    <string name="course_tee">TEES</string>
+    <string name="course_hole_setting_par">标准杆</string>
+    <string name="course_hole_setting_hdcp">难度</string>
+    <string name="course_hole_setting_pace">速度</string>
+    <string name="course_hole_setting_black_tee">Black TEE</string>
+    <string name="course_hole_setting_gold_tee">Golden TEE</string>
+    <string name="course_hole_setting_blue_tee">Blue TEE</string>
+    <string name="course_hole_setting_white_tee">White TEE</string>
+    <string name="course_hole_setting_red_tee">Red TEE</string>
+    <string name="course_hole_setting_add_tee">新增TEE</string>
+    <string name="course_hole_setting_hole">洞</string>
+    <string name="course_setting_time">2.5H</string>
+    <string name="course_setting_par">标准杆</string>
+    <string name="course_course">场地</string>
+    <string name="course_black">Black</string>
+    <string name="course_golden">Golden</string>
+    <string name="course_blue">Blue</string>
+    <string name="course_white">White</string>
+    <string name="course_red">Red</string>
+    <string name="course_fill_tee_name">TEE的名字不能为空</string>
+
+    <string name="reservation_time">预约时间</string>
+    <!-- DoEditAdministration -->
+    <string name="do_edit_administration">高级设置</string>
+    <string name="do_edit_administration_city">城市</string>
+    <string name="do_edit_administration_city_name">北京 中国</string>
+    <string name="do_edit_administration_time_zone">时区</string>
+    <string name="do_edit_administration_date_format">日期格式</string>
+    <string name="do_edit_administration_time_zone_name">GTM +8</string>
+    <string name="do_edit_administration_currency">币别</string>
+    <string name="do_edit_administration_currency_name">RMB</string>
+    <string name="do_edit_administration_logout_after">自动退出</string>
+    <string name="do_edit_administration_logout_after_h">时</string>
+    <string name="do_edit_administration_logout_after_m">分</string>
+    <string name="do_edit_administration_send_reserve_message">发送预约信息</string>
+    <string name="do_edit_administration__one_tee">默认单边开球</string>
+    <string name="do_edit_administration_payment_pattern">默认支付方式</string>
+    <string name="do_edit_administration_pay_cash">现金</string>
+    <string name="do_edit_administration_sales_tax_excluding">消费税外含</string>
+    <string name="do_edit_administration_sales_tax">消费税</string>
+    <string name="do_edit_administration_show_sales_tax">显示消费税</string>
+    <string name="do_edit_administration_unit">单位</string>
+    <string name="do_edit_administration_first_day">周首日</string>
+    <string name="do_edit_administration_meters">米</string>
+    <string name="do_edit_administration_yards">码</string>
+    <string name="do_edit_administration_sun">日</string>
+    <string name="do_edit_administration_mon">一</string>
+    <string name="do_edit_administration_add_caddie_fee">球童费计入账单</string>
+    <string name="do_edit_administration_logout_after_time_tips">自动登出时间不能为0！</string>
+
+
+    <!-- Refresh List Header -->
+    <string name="app_list_header_refresh_down">加载中……</string>
+    <string name="app_list_header_refresh_loading_more">加载更多</string>
+
+    <!-- Search hint -->
+    <string name="location_search_hint">请输入关键字</string>
+
+    <!-- Location Chose -->
+    <string name="check_out">结账</string>
+    <string name="tee_time_shopping_cart">购物车</string>
+    <string name="shopping">购物</string>
+    <string name="title_activity_de_select_member_fragment">DeSelectMemberFragment</string>
+
+    <!-- Tee Time Menu -->
+    <string name="course_data">球场数据</string>
+    <string name="tee_times">场地资源</string>
+    <!-- NEWS -->
+    <string name="news_add">添加新闻</string>
+    <string name="news_add_say_something">说点什么……</string>
+
+    <!-- 04-2-3 -->
+    <string name="confirm_delete">确定删除</string>
+    <string name="walk_in">来宾</string>
+    <string name="undo_check_in">取消开卡</string>
+    <string name="check_in">开卡</string>
+    <string name="pay">支付金额</string>
+
+    <string name="tee_time_guest">嘉宾</string>
+    <string name="tee_time_agent">经销商</string>
+    <string name="tee_time_event">活动</string>
+    <!-- 04-2-1 -->
+    <string name="check_in_customer_type">客人类型</string>
+    <string name="check_in_confirmation_no">预约编号</string>
+    <string name="check_in_reservation_time">预约时间</string>
+    <string name="check_in_course">场地</string>
+    <string name="check_in_caller">预约人</string>
+    <string name="check_in_caller_phone_no">预约人电话</string>
+
+
+    <!-- 04-8-1 -->
+    <string name="player_profile">客户资料</string>
+    <string name="recharge">充值</string>
+    <string name="player_reservations">预约信息</string>
+    <string name="player_past_booking">预约历史记录</string>
+    <string name="player_signature">签名</string>
+    <string name="player_purchase_history">消费历史记录</string>
+    <string name="player_balance_account">账户信息</string>
+    <string name="player_member_ship">会员身份</string>
+    <!-- 04-8-1-1 -->
+    <string name="recharge_type_cash">现金</string>
+    <string name="recharge_type_vouchers">代金券</string>
+    <string name="recharge_type_credit_card">信用卡</string>
+    <string name="recharge_type_Third_party">第三方支付</string>
+
+    <string name="recharge_type_cash_small">现金</string>
+    <string name="recharge_type_vouchers_small">代金券</string>
+    <string name="recharge_type_credit_card_small">信用卡</string>
+    <string name="recharge_type_Third_party_small">第三方支付</string>
+
+
+    <string name="recharge_confirm_message">确定充值</string>
+    <string name="recharge_confirm_message_by">用</string>
+
+    <!-- 04-8-2 -->
+    <string name="player_info_edit_photo">照片</string>
+    <string name="player_info_edit_name">姓名</string>
+    <string name="player_info_edit_occupaation">职业</string>
+    <string name="player_info_edit_birth">生日</string>
+    <string name="player_info_edit_gender_info">性别</string>
+    <string name="player_info_edit_general_info">基本资料</string>
+    <string name="player_info_edit_add_gender_info">新增资料</string>
+    <string name="player_info_edit_accept">接受促销信息 </string>
+    <string name="player_info_edit_hobbies">喜好 :</string>
+    <string name="player_info_edit_notes">备注 :</string>
+    <string name="player_info_edit_signature">签名</string>
+    <string name="player_info_edit_add_phone">添加电话</string>
+    <string name="player_info_edit_add_email">添加邮箱</string>
+    <string name="player_info_edit_add_address">添加地址</string>
+    <string name="player_info_edit_year">年</string>
+    <string name="player_info_edit_month">月</string>
+    <string name="player_info_edit_day">日</string>
+    <string name="player_info_day">天</string>
+    <!-- 04-8-2-1 -->
+    <string name="player_info_photo_select">照片</string>
+    <string name="player_tel">电话</string>
+    <string name="player_email">邮箱</string>
+    <string name="player_camera">相机</string>
+    <string name="player_file">文件</string>
+    <!-- 04-8-2-4 -->
+    <string name="player_info_tel_type_home">家庭</string>
+    <string name="player_info_tel_type_work">工作</string>
+    <string name="player_info_tel_type_mobile">移动</string>
+    <string name="player_info_tel_type_other">其他</string>
+    <string name="player_info_tel_type_custom">自定义</string>
+
+    <!-- 04-8-2-4 -->
+    <string name="player_info_address_type_home">家庭</string>
+    <string name="player_info_address_type_work">工作</string>
+    <string name="player_info_address_type_other">其他</string>
+    <string name="player_info_address_type_custom">自定义</string>
+
+    <!-- 04-8-3-->
+    <string name="player_info_membership">会员身份</string>
+    <string name="player_info_membership_id_type">身份类型</string>
+    <string name="player_info_membership_id">ID</string>
+    <string name="player_info_membership_create_date">到期日期</string>
+    <string name="player_info_membership_effective_date">生效日期</string>
+    <string name="player_info_membership_annual_fee">年费</string>
+    <string name="player_info_membership_payment_date">付款日期</string>
+    <string name="player_info_membership_end_date">到期日期</string>
+    <string name="player_info_membership_send_email">发送会员证信息邮件</string>
+    <!-- 04-8-3-1-->
+    <string name="player_info_renewal">续约</string>
+    <string name="player_info_renewal_annual_fee">年费</string>
+    <string name="player_info_renewal_split">充入账户</string>
+    <string name="player_info_renewal_end_date">到期日期</string>
+    <string name="player_info_renewal_payment_pattern">支付方式</string>
+    <!-- 04-8-4-->
+
+    <string name="player_info_password_title">客户1</string>
+    <string name="player_info_password_user">用户名</string>
+    <string name="player_info_password_password">密码</string>
+    <!-- 04-8-5-->
+
+    <string name="player_info_balance_account_title">账户信息</string>
+    <string name="player_info_balance_account_remaining">账户余额</string>
+    <string name="player_info_balance_account">账户名称</string>
+    <string name="player_info_balance_account_passcode">支付密码</string>
+    <string name="player_info_balance_account_pre_pay">预存金额</string>
+    <string name="player_info_balance_account_overdraft">透支额度</string>
+    <string name="player_info_balance_account_time_limit">单笔透支期限</string>
+
+    <!-- 04-8-6-->
+    <string name="player_info_purchase_history">消费历史记录</string>
+    <string name="player_info_purchase_refund">退款</string>
+    <!-- 04-8-6-1-->
+    <string name="play_purchase_history_deposit">押金</string>
+    <string name="play_purchase_history_signature">签名</string>
+    <string name="play_purchase_history_send_email">发送邮件账单</string>
+    <string name="play_purchase_history_send_sms">发送短信账单</string>
+    <string name="play_purchase_history_paid">已支付</string>
+    <string name="play_purchase_history_unpaid">未支付</string>
+    <!-- 04-8-6-3-->
+
+    <string name="play_refund">退款</string>
+    <string name="play_refund_payment">支付方式</string>
+    <string name="play_refund_aa">AA </string>
+    <string name="play_refund_message">提示:退款方式由支付方式决定。</string>
+    <string name="play_refund_confirm">确认退款</string>
+    <string name="play_refund_tips">提示:</string>
+
+    <!-- 04-8-7-->
+    <string name="play_reservations">预约信息</string>
+    <!-- 04-8-8-->
+    <string name="play_past_booking">预约历史记录</string>
+
+    <!--06-2-1-->
+    <string name="shopping_pay_title">支付</string>
+    <string name="shopping_pay_applay_discount">打折</string>
+    <string name="shopping_pay_account">账号</string>
+    <string name="shopping_pay_balance">账户余额</string>
+    <string name="shopping_pay_passcode">消费密码</string>
+    <string name="shopping_pay_discount_reason">打折原因</string>
+    <string name="shopping_pay_discount_hit">折扣</string>
+    <string name="shopping_pay_manager">主管</string>
+    <string name="shopping_pay_password">密码</string>
+    <string name="shopping_pay_subtotal">小计:</string>
+    <string name="shopping_pay_tax">消费税:</string>
+    <string name="shopping_pay_discount">折扣:</string>
+    <string name="shopping_pay_deposit">押金:</string>
+    <string name="shopping_pay_total">总金额:</string>
+    <string name="shopping_pay_confirm_payment">确认支付</string>
+    <string name="shopping_pay_payment_pattern">支付方式</string>
+    <string name="shopping_pay_payment_pattern_default">现金</string>
+    <string name="shopping_pay_deposit_insufficient">押金不足</string>
+    <!-- 11-1-->
+    <string name="customer_edit_title">客人</string>
+    <string name="life_member_title">Life member</string>
+
+    <!-- message -->
+    <string name="msg_common_network_error">请求超时，请检查网络，稍后重试</string>
+    <string name="msg_common_confirm_delete">删除确认</string>
+    <string name="msg_no_more_rental">没有更多的商品可以添加</string>
+    <string name="msg_booking_reserve_the_time_past">过去时间不能预约！</string>
+    <string name="msg_please_choose_product">请选择商品!</string>
+    <string name="msg_no_more_product">{0}已售罄！</string>
+    <string name="msg_choose_only_one_product">只能选择一个商品!</string>
+    <string name="msg_the_total_quantity_will_be_changed_to">总数量改为{0}.</string>
+    <string name="msg_refunds_can_not_exceed_the_total_amount">退款上限不能超过实际支付总额！ </string>
+    <string name="msg_send_success">发送成功!</string>
+    <string name="msg_this_time_has_been_reserved">该时间段内有预约！</string>
+    <string name="msg_confirm_pay_deposit_check_out">使用押金：{0} (需退押金{1} )</string>
+    <string name="msg_confirm_pay_deposit_pay">使用押金：{0} (还剩押金{1})</string>
+    <string name="msg_confirm_pay_deposit_0_check_out">使用押金：{0}</string>
+    <string name="msg_confirm_pay_deposit_0_pay">使用押金：{0}</string>
+
+    <string name="msg_confirm_pay_wether_to_return_times">是否退回次数?</string>
+
+    <string name="msg_end_date_must_be_later_than_effective_date">生效日期不得晚于到期日期！</string>
+    <string name="msg_agent_can_not_book_in_event_time">经销商不可在活动时间内预约</string>
+    <string name="msg_no_signature">该会员没有签名！</string>
+    <string name="msg_error_this_time_has_past">过去时间不可购买！</string>
+    <!-- Login -->
+    <string name="msg_login_success">登录成功</string>
+    <string name="msg_login_enter_your_username_and_password">请输入用户名和密码</string>
+    <string name="msg_login_invalid_temp_password">无效的临时密码</string>
+    <!-- Main -->
+    <string name="msg_main_application_exit_tile">警告</string>
+    <string name="msg_main_application_exit_message">退出?</string>
+    <string name="msg_no_discount_message"> ：当前会员无折扣果岭费，需全额支付。</string>
+    <string name="msg_member_ship_is_overdue_full_fee">{0}：该会员已过期，需按照来宾价格支付果岭费</string>
+    <string name="msg_member_ship_is_overdue_full_fee1">{0}：该会员已过期</string>
+    <string name="msg_one_tee_only">单边开球！</string>
+    <!-- TeeTime -->
+    <string name="msg_prime_time_now_will_be_delete">当前为黄金时间，将同时删除{0}！</string>
+    <string name="msg_sub_categories_must_be_filled">商品子类不可有空项!</string>
+
+    <!-- Agents -->
+    <string name="agents_delete_agents">经销商</string>
+    <string name="agents_delete_add">+</string>
+
+    <string name="agents_recharge_agent">经销商1</string>
+    <string name="agents_recharge_tel">13333333333</string>
+    <string name="agents_recharge_email">agents1@gmail.com</string>
+    <string name="agents_recharge_pricing_table">价格表</string>
+    <string name="agents_recharge_balance_account">账户信息</string>
+    <string name="agents_recharge_money">$-2000</string>
+    <string name="agents_recharge_purchase_history">消费历史</string>
+    <string name="agents_recharge_reservations">预约</string>
+    <string name="agents_recharge_past_booking">预约历史</string>
+    <string name="agents_recharge_username">用户名</string>
+
+    <string name="add_agent_agent">经销商</string>
+    <string name="add_agent_person_in_charge">联系人</string>
+    <string name="add_agent_add_phone">添加电话</string>
+    <string name="add_agent_add_email">添加邮箱</string>
+    <string name="add_agent_userName">用户名</string>
+    <string name="add_agent_passWord">密码</string>
+    <string name="add_agent_notes">备注</string>
+
+    <string name="pricing_table_choose_date">选择日期</string>
+    <string name="pricing_table_startDate">开始日期</string>
+    <string name="pricing_table_endDate">结束日期</string>
+    <string name="pricing_table_startTime">开始时间</string>
+    <string name="pricing_table_endTime">结束时间</string>
+    <string name="pricing_table_addTime">新增时间</string>
+    <string name="pricing_table_choose_product">选择商品</string>
+    <string name="pricing_table_green">果岭费</string>
+    <string name="pricing_table_caddie">球童费</string>
+    <string name="agent_user_message_userName">用户名</string>
+    <string name="agent_user_message_passWord">密码</string>
+
+
+    <string name="add_tee_time_setting_search_mes1">未找到 \"</string>
+    <string name="add_tee_time_setting_search_mes2">\".</string>
+    <string name="shopping_product_search_mes1">未找到 \"</string>
+    <string name="shopping_product_search_mes2">\".</string>
+
+    <!-- 05 Shopping setting -->
+    <string name="shop_setting_enable_price_of_subcategories">启用属性价格</string>
+    <string name="shop_setting_choose_product_subcategories">选择商品-属性</string>
+    <string name="shop_setting_play_more_out">续打OUT</string>
+    <string name="shop_setting_choose_product">选择商品</string>
+    <string name="shop_setting_shoes">球鞋</string>
+    <string name="shop_setting_subcategories_edit">编辑属性</string>
+    <string name="shop_setting_pro">贩卖</string>
+    <string name="shop_setting_invalid_package">过期套餐</string>
+    <string name="shop_setting_picture">图片</string>
+    <string name="shop_setting_qty">数量</string>
+    <string name="shop_setting_umbrella">伞</string>
+    <string name="shop_setting_course">场地</string>
+    <string name="shop_setting_promote_edit">编辑促销</string>
+    <string name="shop_setting_qty_of_subcategories">各属性数量</string>
+    <string name="shop_setting_trolley">手拖车</string>
+    <string name="shop_setting_product_edit_package">商品编辑-套餐</string>
+    <string name="shop_setting_code">编码</string>
+    <string name="shop_setting_end_time">截止日期</string>
+    <string name="shop_setting_towel">毛巾</string>
+    <string name="shop_setting_product_edit_rental">商品编辑-租赁</string>
+    <string name="shop_setting_play_more_in">续打IN</string>
+    <string name="shop_setting_price">价格</string>
+    <string name="shop_setting_package_name">套餐名称</string>
+    <string name="shop_setting_holes">球洞</string>
+    <string name="shop_setting_package">套餐</string>
+    <string name="shop_setting_clubs">球杆</string>
+    <string name="shop_setting_caddie">球童</string>
+    <string name="shop_setting_return_time">使用时间</string>
+    <string name="shop_setting_9_holes">9洞</string>
+    <string name="shop_setting_promote_price">促销价格</string>
+    <string name="shop_setting_shopping_setting">购物设置</string>
+    <string name="shop_setting_reserve_fee">预约费</string>
+    <string name="shop_setting_enable_subcategories">启用属性</string>
+    <string name="shop_setting_ok">确定</string>
+    <string name="shop_setting_subcategories">属性</string>
+    <string name="shop_setting_cart">球车</string>
+    <string name="shop_setting_others">其他</string>
+    <string name="shop_setting_play_more_9_holes">续打9洞</string>
+    <string name="shop_setting_promote">促销</string>
+    <string name="shop_setting_type">类型</string>
+    <string name="shop_setting_rental">租赁</string>
+    <string name="shop_setting_reserve_product">可预约商品</string>
+    <string name="shop_setting_product_name">商品名称</string>
+    <string name="shop_setting_total">总金额</string>
+    <string name="shop_setting_type_edit">类型编辑</string>
+    <string name="shop_setting_add_a_type">新增类型</string>
+    <string name="shop_setting_price_of_subcategories">各属性价格</string>
+    <string name="shop_setting_green">果岭费</string>
+    <string name="shop_setting_start_time">开始日期</string>
+    <string name="shop_setting_product_edit_pro">商品编辑-Pro</string>
+    <string name="shop_setting_product_edit">编辑商品-</string>
+    <string name="shop_setting_enter_product_name">请输入商品名称!</string>
+    <string name="shop_setting_enter_price">请输入价格！</string>
+    <string name="shop_setting_enter_qty">请输入数量！</string>
+    <string name="shop_setting_unlimited_qty">不限数量</string>
+
+    <!-- 06 Shopping -->
+    <string name="shopping_all">全部</string>
+    <string name="shopping_account">账号</string>
+    <string name="shopping_purchase_rental">消费-租赁</string>
+    <string name="shopping_tax">消费税</string>
+    <string name="shopping_total">总计</string>
+    <string name="shopping_check_out">结账</string>
+    <string name="shopping_pro">专卖</string>
+    <string name="shopping_manager">主管</string>
+    <string name="shopping_send">发送</string>
+    <string name="shopping_credit_card">信用卡</string>
+    <string name="shopping_confirm_payment">确认支付</string>
+    <string name="shopping_payment_succeeded">支付成功</string>
+    <string name="shopping_go_fifty_fifty">AA</string>
+    <string name="shopping_balance_account">账户余额</string>
+    <string name="shopping_send_the_receipt_by_sms">发送短信账单</string>
+    <string name="shopping_payment_pattern">支付方式</string>
+    <string name="shopping_deposit">押金</string>
+    <string name="shopping_payment_failed">支付失败</string>
+    <string name="shopping_send_the_receipt_by_email">发送邮件账单</string>
+    <string name="shopping_subtotal">小计</string>
+    <string name="shopping_confirm_to_pay">支付</string>
+    <string name="shopping_apply_discount">打折</string>
+    <string name="shopping_package">套餐</string>
+    <string name="shopping_split">拆分</string>
+    <string name="shopping_balance">账户余额</string>
+    <string name="shopping_add_a_customer">添加客人</string>
+    <string name="shopping_discount">折扣</string>
+    <string name="shopping_cancel">取消</string>
+    <string name="shopping_passcode">消费密码</string>
+    <string name="shopping_repay">重新支付</string>
+    <string name="shopping_confirm">确认AA</string>
+    <string name="shopping_pay_cash">现金</string>
+    <string name="shopping_shopping">购物</string>
+    <string name="shopping_product_code">商品编号</string>
+    <string name="shopping_cart">球车</string>
+    <string name="shopping_password">密码</string>
+    <string name="shopping_third_party_payment">第三方支付</string>
+    <string name="shopping_others">其他</string>
+    <string name="shopping_purchase">消费</string>
+    <string name="shopping_discount_reason">打折原因</string>
+    <string name="shopping_paid">已付款</string>
+    <string name="shopping_promote">促销</string>
+    <string name="shopping_voucher">优惠券</string>
+    <string name="shopping_rental">租赁</string>
+    <string name="shopping_choose_other_payment">选择其他支付方式</string>
+    <string name="shopping_package_available">可用套餐</string>
+    <string name="shopping_package_shop">套餐商店</string>
+    <string name="shopping_aa_err_mes"> AA前后金额不一致!</string>
+    <string name="shopping_purchase_err_mes">未选择商品</string>
+    <string name="shopping_aa_tow_err_mes">两人以上才可以AA！</string>
+    <string name="shopping_aa_with">AA </string>
+    <string name="shopping_used_deposit">使用押金:</string>
+
+    <!-- 07 Staff -->
+    <string name="staff_staff">员工</string>
+    <string name="staff_caddies">球童</string>
+    <string name="staff_department">部门</string>
+    <string name="staff_authority">权限</string>
+    <string name="staff_level">等级</string>
+    <string name="staff_tee_times">预约/打球</string>
+    <string name="staff_events">活动</string>
+    <string name="staff_shops">商店</string>
+    <string name="staff_customers">客人</string>
+    <string name="staff_agents">经销商</string>
+    <string name="staff_news">新闻</string>
+    <string name="staff_discount">折扣</string>
+    <string name="staff_edit_course_data">编辑场地数据</string>
+    <string name="staff_edit_tee_times">编辑场地资源</string>
+    <string name="staff_check_in_undo">开卡/取消开卡</string>
+    <string name="staff_check_out">结账</string>
+    <string name="staff_see_other_reservation">查看其他人的预约</string>
+    <string name="staff_shop_edit">编辑商店</string>
+    <string name="staff_product_edit">编辑商品</string>
+    <string name="staff_selling">销售</string>
+    <string name="staff_promote">促销</string>
+    <string name="staff_rental_shop">租赁</string>
+    <string name="staff_package">套餐</string>
+    <string name="staff_pro_shop">贩卖</string>
+    <string name="staff_minus_bad_inventory">损耗</string>
+    <string name="staff_add_inventory">入库</string>
+    <string name="staff_customers_type_edit">编辑客人身份类型</string>
+    <string name="staff_profile_edit">编辑客人资料</string>
+    <string name="staff_member">会员</string>
+    <string name="staff_non_member">非会员</string>
+    <string name="staff_recharge">充值</string>
+    <string name="staff_membership_management">会员卡管理</string>
+    <string name="staff_refund">退款</string>
+    <string name="staff_agents_browse">查看</string>
+    <string name="staff_agents_edit">编辑</string>
+    <string name="staff_pricing_table">价格表</string>
+    <string name="staff_see_other_department">查看其他部门</string>
+    <string name="staff_news_edit">编辑新闻</string>
+    <string name="staff_add_level">新增级别</string>
+    <string name="staff_manager">主管</string>
+    <string name="staff_add_a_profile">新增客户资料</string>
+    <string name="staff_no">编号</string>
+    <string name="staff_add_phone">添加电话</string>
+    <string name="staff_add_email">添加邮箱</string>
+
+    <string name="staff_fill_name">请输入姓名！</string>
+    <string name="staff_fill_username">请输入用户名！</string>
+    <string name="staff_fill_password">请输入密码！</string>
+    <string name="staff_select_level">请选择等级！</string>
+    <string name="staff_fill_number">请输入编号！</string>
+    <string name="staff_fill_phone_number">请输入电话！</string>
+    <string name="staff_add_one_phone_number_at_least">请至少添加一个电话！</string>
+    <string name="staff_fill_email">请输入邮箱！</string>
+    <string name="staff_add_one_email_at_least">请至少添加一个邮箱！</string>
+    <string name="error_username_format">用户名格式不正确！请输入手机号或邮箱地址</string>
+    <string name="error_email_address_format">邮箱格式不正确！</string>
+    <string name="error_caddie_level_format">球童等级格式不正确！</string>
+
+
+    <!-- 09 Events -->
+    <string name="event_event">活动</string>
+    <string name="event_pricing_table">价格表</string>
+    <string name="event_date">日期</string>
+    <string name="event_date_1">日期1</string>
+    <string name="event_start_time">开始时间</string>
+    <string name="event_end_time">结束时间</string>
+    <string name="event_gap_time">组间隔</string>
+    <string name="event_course">场地</string>
+    <string name="event_add_date">新增日期</string>
+    <string name="event_choose_product">选择商品</string>
+    <string name="event_rental_shop">租赁商店</string>
+    <string name="event_pro_shop">专卖店</string>
+    <string name="event_package">套餐</string>
+    <string name="event_others">其他</string>
+
+    <!-- 10 Agents -->
+    <string name="agents_agents">经销商</string>
+    <string name="agents_recharge">充值</string>
+    <string name="agents_pricing_table">价格表</string>
+    <string name="agents_balance_account">账户余额</string>
+    <string name="agents_purchase_history">消费历史</string>
+    <string name="agents_reservations">预约</string>
+    <string name="agents_past_booking">预约历史</string>
+    <string name="agents_add_an_agent">新增资料</string>
+    <string name="agents_agent">经销商</string>
+    <string name="agents_person_in_charge">联系人</string>
+    <string name="agents_add_phone">添加电话</string>
+    <string name="agents_add_email">添加邮箱</string>
+    <string name="agents_notes">备注</string>
+    <string name="agents_date">日期</string>
+    <string name="agents_start_time">开始时间</string>
+    <string name="agents_end_time">结束时间</string>
+    <string name="agents_add_time">新增时间</string>
+    <string name="agents_choose_product">选择商品</string>
+    <string name="agents_off">OFF</string>
+    <string name="agents_total">总金额</string>
+    <string name="agent_fill_agent">请输入经销商!</string>
+    <string name="agent_fill_person_in_charge">请输入联系人!</string>
+    <string name="agent_fill_user_name">请输入用户名!</string>
+    <string name="agent_fill_pass_word">请输入密码!</string>
+
+
+    <!-- 11 Customers -->
+    <string name="customers_customers">客人</string>
+    <string name="customers_add">添加</string>
+    <string name="customers_member">会员</string>
+    <string name="customers_non_member">非会员</string>
+    <string name="customers_type">会员类型</string>
+    <string name="customers_period_of_validity">有效期</string>
+    <string name="customers_end_date">截止日期</string>
+    <string name="customers_period_in_months">有效期</string>
+    <string name="customers_month">月</string>
+    <string name="customers_annual_fee">年费</string>
+    <string name="customers_guest">可签嘉宾</string>
+    <string name="customers_guest_per_day">可签嘉宾/天</string>
+    <string name="customers_sign_when_check_in">开卡时签名</string>
+    <string name="customers_over_draft">透支额度</string>
+    <string name="customers_time_limit">单笔透支期限</string>
+
+    <string name="customers_green_general_price">基础价格</string>
+    <string name="customers_off">OFF</string>
+    <string name="customers_pricing_table">价格表</string>
+    <string name="customers_date">日期</string>
+    <string name="customers_start_time">开始时间</string>
+    <string name="customers_end_time">结束时间</string>
+    <string name="customers_add_time">新增时间</string>
+    <string name="customers_guest_sign">可签嘉宾</string>
+    <string name="customers_choose_product">选择商品</string>
+    <string name="customers_member_total">会员</string>
+    <string name="customers_guest_total">嘉宾</string>
+    <string name="customers_date_of_birth">生日</string>
+    <string name="customers_tel">电话</string>
+    <string name="customers_zip_code">邮编</string>
+
+    <!-- TAG -->
+    <string name="tag_home">家庭</string>
+    <string name="tag_work">工作</string>
+    <string name="tag_mobile">移动</string>
+    <string name="tag_other">其他</string>
+    <string name="tag_custom">自定义</string>
+    <!-- PAY -->
+    <string name="tag_pay_cash">现金</string>
+    <string name="tag_balance_account">账户余额</string>
+    <string name="tag_bank_transfer">银行转账</string>
+    <string name="tag_voucher">代金券</string>
+    <string name="tag_credit_card">信用卡</string>
+    <string name="tag_third_party">第三方支付</string>
+    <string name="tag_third_party_ui_show">第三方支付</string>
+    <!-- Calendar -->
+    <string name="calendar_jan">一月</string>
+    <string name="calendar_feb">二月</string>
+    <string name="calendar_mar">三月</string>
+    <string name="calendar_apr">四月</string>
+    <string name="calendar_may">五月</string>
+    <string name="calendar_jun">六月</string>
+    <string name="calendar_jul">七月</string>
+    <string name="calendar_aug">八月</string>
+    <string name="calendar_sep">九月</string>
+    <string name="calendar_oct">十月</string>
+    <string name="calendar_nov">十一月</string>
+    <string name="calendar_dec">十二月</string>
+    <string name="calendar_sun">日</string>
+    <string name="calendar_mon">一</string>
+    <string name="calendar_tue">二</string>
+    <string name="calendar_wed">三</string>
+    <string name="calendar_thu">四</string>
+    <string name="calendar_fri">五</string>
+    <string name="calendar_sat">六</string>
+
+    <!-- createChooser-->
+    <string name="create_chooser_send_mail">发送邮件到</string>
+
+
+    <!-- Tee Times -->
+    <string name="tee_times_block_times">锁定时段</string>
+    <string name="tee_times_two_tee_start">双边发球</string>
+    <string name="tee_times_two_and_three_tee_start">双/三边发球</string>
+    <string name="tee_times_nine_holes_only">仅9洞</string>
+    <string name="tee_times_member_only">会员时段</string>
+    <string name="tee_times_prime_time">黄金时段</string>
+    <string name="tee_times_booking_here">已预约</string>
+
+    <string name="tee_times_segment_times">特殊设置</string>
+    <string name="tee_times_tee_times_setting">场地资源设置</string>
+
+    <string name="tee_times_tee_times_format">开球方式</string>
+    <string name="tee_times_ok">确定</string>
+    <string name="tee_times_start_date">开始日期</string>
+    <string name="tee_times_end_date">结束日期</string>
+    <string name="tee_times_sunrise">日出时间</string>
+    <string name="tee_times_sunset">日落时间</string>
+    <string name="tee_times_first_tee_time">开始时间</string>
+    <string name="tee_times_last_tee_time">结束时间</string>
+    <string name="tee_times_gap_time">组间隔</string>
+    <string name="tee_times_transfer_time">转场时间</string>
+
+    <string name="tee_times_not_segment_times">该天未设置场地资源！</string>
+    <string name="tee_times_select_date">请选择日期！</string>
+    <string name="tee_times_selected_different_tee_times">选择了不同的场地设置！</string>
+    <string name="tee_times_selected_not_tee_times_setting_date">选择了未设置场地设置的日期！</string>
+    <string name="tee_times_selected_not_serial_dates">选择的日期不连续！</string>
+    <string name="tee_times_has_been_reserved">有预约不可修改！</string>
+    <string name="tee_times_cover_old_tee_times">是要覆盖当前的场地设置？</string>
+
+    <!-- Segment Times -->
+    <string name="segment_times_segment_times">特殊设置</string>
+    <string name="segment_times_ok">保存</string>
+    <string name="segment_times_delete">删除</string>
+    <string name="segment_times_expand">展开</string>
+    <string name="segment_times_hide">收起</string>
+    <string name="segment_times_two_tee_start">双边发球</string>
+    <string name="segment_times_nine_holes_only">仅9洞</string>
+    <string name="segment_times_block_times">锁定时段</string>
+    <string name="segment_times_member_only">会员时段</string>
+    <string name="segment_times_three_tee_start">三边发球</string>
+    <string name="segment_times_prime_time">黄金时段</string>
+    <string name="segment_times_course">场地</string>
+    <string name="segment_times_start_time">开始时间</string>
+    <string name="segment_times_end_time">结束时间</string>
+    <string name="segment_times_all_reserved">须全部为会员</string>
+    <string name="segment_times_member_type">会员类型</string>
+    <string name="segment_times_life_member">Life Member</string>
+    <string name="segment_times_family_member">Family Member</string>
+    <string name="segment_times_three_to_reserve">3人及以上可预约</string>
+
+    <string name="segment_times_start_time_input">请输入开始时间！</string>
+    <string name="segment_times_end_time_input">请输入结束时间！</string>
+    <string name="segment_times_time_input">结束时间必须大于开始时间！</string>
+    <string name="segment_times_area_input">请输入完整的转场信息！</string>
+    <string name="segment_times_cannot_choose_itself">不能选择转自身场地！</string>
+    <string name="segment_times_area_has_been_chose">该场地已被选择，请选择其他场地！</string>
+    <string name="segment_times_member_type_chose">请至少选择一种会员类型！</string>
+    <string name="segment_times_area_chose">请至少选择一个场地！</string>
+    <string name="segment_times_add_successfully">添加成功！</string>
+    <string name="segment_times_add_failed">添加失败！</string>
+    <string name="segment_times_delete_successfully">删除成功！</string>
+
+    <!-- Rental Type -->
+    <string name="rental_type_caddie">球童</string>
+    <string name="rental_type_cart">球车</string>
+    <string name="rental_type_clubs">球杆</string>
+    <string name="rental_type_shoes">球鞋</string>
+    <string name="rental_type_trolley">手拖车</string>
+    <string name="rental_type_umbrella">伞</string>
+    <string name="rental_type_towel">毛巾</string>
+
+    <!-- booking message -->
+    <string name="booking_message_member_only">会员时段</string>
+    <string name="booking_message_prime_time">黄金时段</string>
+    <string name="booking_message_price_discount">优惠时段</string>
+    <string name="booking_message_event_time">比赛时间</string>
+    <string name="booking_message_block_time">锁定时段</string>
+    <string name="booking_message_transfer_time">转场时段</string>
+
+    <string name="msg_loaded">全部加载完成</string>
+    <string name="msg_passwords_does_not_match">两次密码输入不一致，请重新输入</string>
+
+
+    <!-- quick entrance-->
+    <string name="quick_welcome">欢迎！</string>
+    <string name="quick_check_in">开卡</string>
+    <string name="quick_undo_check_in">取消开卡</string>
+    <string name="quick_shopping">购物</string>
+    <string name="quick_check_out">结账</string>
+    <string name="quick_recharge">充值</string>
+    <string name="quick_purchase_history">消费历史记录</string>
+    <string name="quick_reservations">预约信息</string>
+    <string name="quick_customer_info">客人资料</string>
+    <string name="quick_add_a_profile">新增客户资料</string>
+
+    <string name="segment_time_title_every_week">{1}每个星期{0}</string>
+    <string name="segment_time_title_whole_month">{0}全月</string>
+
+    <string name="custom_mail_tag_must_not_be_null">请填写Email属性!</string>
+    <string name="custom_phone_tag_must_not_be_null">请填写Phone属性!</string>
+
+    <string name="date_format_yyyy_mm_dd">年/月/日</string>
+    <string name="date_format_mm_dd_yyyy">月/日/年</string>
+    <string name="date_format_dd_mm_yyyy">日/月/年</string>
+
+    <string name="select_address_region">地区</string>
+    <string name="select_address_selected">已选地区</string>
+
+    <!-- chart -->
+    <string name="chart_total">总收入</string>
+    <string name="chart_total_revenue">总收入</string>
+    <string name="chart_yesterday">昨天</string>
+    <string name="chart_last_week">上周</string>
+    <string name="chart_last_month">上月</string>
+    <string name="chart_last_year">去年</string>
+    <string name="chart_revenue_from">总收入 </string>
+    <string name="chart_check_in">来场 </string>
+    <string name="chart_per_capita">人均</string>
+    <string name="chart_revenue">收入</string>
+    <string name="chart_label_format_02">{0}{1}人{4}{2}占{3}</string>
+    <string name="chart_label_format_03">{0}占{1}</string>
+    <string name="chart_label_format_04">{0}占{1}</string>
+    <string name="chart_identity_changed_when_check_in">{0}人开卡后身份变更</string>
+    <string name="chart_account_receivable">应收</string>
+    <string name="chart_balance">差额</string>
+    <string name="chart_title_03">{0} : {1}</string>
+    <string name="chart_title_04">{0} : {1}人</string>
+
+    <string name="overdue_mes">会员卡已到期！</string>
+    <string name="refund_method">退款方式</string>
+    <string name="available_deposit_pay_mes">(还剩押金 {0})</string>
+    <string name="available_deposit_check_out_mes">(需退押金 {0})</string>
+    <string name="chart_detailed_ide_change_title">身份变更纪录  </string>
+    <string name="chart_players">人</string>
+    <string name="chart_ide_change_mes">开卡后身份变更</string>
+    <string name="no_caddies_mes">暂无可用球童</string>
+    <string name="quick_bag_unbind">球包解绑</string>
+    <string name="quick_caddie_unbind">球童解绑</string>
+    <string name="chart_analysis_discount">折扣</string>
+
+
+    <string name="pricing_table_guests_days">可签嘉宾/天</string>
+    <string name="pricing_table_times">计次</string>
+    <string name="pricing_table_total_num">总次数</string>
+    <string name="pricing_table_quick_choose">快速选择商品</string>
+    <string name="pricing_table_custom_choose">自定义选择商品</string>
+    <string name="pricing_table_day">天</string>
+    <string name="pricing_table_number">次数</string>
+
+
+    <string name="pricing_table_holiday">假日</string>
+    <string name="pricing_table_weekday">平日</string>
+
+    <string name="administration_advanced_setting_comment">H-假日\nW-平日</string>
+    <string name="administration_special_title">特殊日</string>
+    <string name="administration_date_setting">日期设置</string>
+    <string name="administration_date_setting_comment">设置平假日及特殊日</string>
+    <string name="administration_date_advanced_setting">日期高级设置</string>
+    <string name="administration_date_setting_generate">生成</string>
+    <!--SpecialDayFragment-->
+    <string name="special_day_fragment_hint">请输入特殊日名称</string>
+    <string name="special_day_fragment_add">添加特殊日</string>
+
+    <!--AdvancedSetting -->
+    <string name="advanced_setting_title">高级设置</string>//change by jh
+    <!--ChooseDateFragment -->
+    <string name="choose_date_title">选择</string>
+
+
+    <string name="pricing_choose_price">选择价格</string>
+    <string name="pricing_deduct">扣除</string>
+
+
+    <string name="agents_open_tee_times">开放预约时间</string>
+    <string name="pricing_group">组合</string>
+
+
+
+
+    <string name="agents_add_open_tee_times">增加开放时段</string>
+
+    <string name="agents_edit_open_tee_times">编辑开放时段</string>
+    <string name="agents_time_check">开始和结束时间不能重复</string>
+
+    <string name="shops_rental_mes">无更多类别可用</string>
+
+    <string name="customers_sign_for_guest">嘉宾开卡签字</string>
+    <string name="itee_choose_customer">选择客人</string>
+
+    <string name="tee_time_profile">资料</string>
+    <string name="sign_by">选择客人</string>
+
+
+
+    <string name="search_booking">预约</string>
+    <string name="search_on_course">场下</string>
+    <string name="search_check_out">结账</string>
+    <string name="search_member">会员</string>
+    <string name="search_guest">嘉宾</string>
+    <string name="search_walk_in">来宾</string>
+    <string name="search_agent">经销商</string>
+    <string name="search_event">活动</string>
+
+    <string name="search_more">搜索更多</string>
+    <string name="advanced_setting">高级设置</string>
+
+
+
+    <string name="weekday_pace">平日击球速度</string>
+    <string name="holiday_pace">假日击球速度</string>
+
+    <string name="one_tee_start">单边开球</string>
+    <string name="two_tee_start">双边开球</string>
+    <string name="three_tee_start">三边开球</string>
+    <string name="mix_tee_start">三一开球</string>
+    <string name="choose_date_check">日期必选</string>
+
+
+
+    <string name="custom_start">开球</string>
+    <string name="custom_transfer">转场</string>
+    <string name="custom_9_holes">仅九洞</string>
+
+    <string name="member_only">会员时段</string>
+    <string name="prime_time">黄金时段</string>
+
+    <string name="gap_3_check">3人及以上可预约</string>
+
+    <string name="all_members">必须全部为会员</string>
+
+    <string name="custom_clear">清除</string>
+
+
+    <string name="custom_clear_all">清除全部</string>
+
+    <string name="tee_times_tee_times">场地资源</string>
+
+    <string name="segment_err_mes_1">有预约不可修改！</string>
+
+    <string name="segment_custom_err_1">不可选择已经设置过的时间！</string>
+
+    <string name="segment_err_mes_2">请选择一种开球方式</string>
+
+
+    <string name="segment_custom_mes_1">你想做什么？</string>
+    <string name="segment_custom_mes_2">所有时间都可预约</string>
+    <string name="segment_custom_mes_3">锁定所有时间</string>
+
+
+
+    <string name="limit_err_1">至少选择了一种会员类型</string>
+
+    <string name="tee_time_limit">预约限制</string>
+
+
+    <string name="transfer_b">转场数量多于开始时间！</string>
+
+    <string name="transfer_s">转场数量少于开始时间！</string>
+
+    <string name="common_continue">继续</string>
+
+    <string name="segment_custom_mes_4">开球和转场不能在同一场地。</string>
+    <string name="q_9">⑨</string>
+
+
+    <string name="segment_setting_check1">请选择日期</string>
+    <string name="segment_setting_check2">请选择开始预约时间</string>
+    <string name="segment_setting_check3">请选择结束预约时间</string>
+    <string name="advanced_setting_check">请先进行日期设置</string>
+
+
+
+    <string name="segment_setting_alert_mes">当日未设置过场地资源</string>
+    <string name="segment_setting_alert_btn_1">现在设置</string>
+    <string name="segment_setting_alert_btn_2">暂不设置</string>
+
+
+    <string name="tee_time_save_reservation">请先保存预约</string>
+    <string name="chart_view_title">报表</string>
+    <!-- NFC  -->
+    <string name="nfc_card_not_found">系统内未找到此卡，请为此卡输入一个卡号来录入系统！</string>
+
+    <!-- 支付相关Values -->
+    <string name="paytype_cash">现金</string>
+    <string name="paytype_cash_no">1</string>
+
+    <string name="paytype_balance">账户余额</string>
+    <string name="paytype_balance_no">5</string>
+
+    <string name="paytype_card">刷卡</string>
+    <string name="paytype_card_no">3</string>
+
+    <string name="paytype_zhifubao">支付宝</string>
+    <string name="paytype_zhifubao_no">10</string>
+
+    <string name="paytype_wechat">微信</string>
+    <string name="paytype_wechat_no">4</string>
+
+    <string name="paytype_sign">签单</string>
+    <string name="paytype_sign_no">9</string>
+
+    <string name="paytype_sign_company">公司签账</string>
+    <string name="paytype_sign__company_no">21</string>
+
+    <string name="paytype_sign_gudong">股东签账</string>
+    <string name="paytype_sign_gudong_no">22</string>
+
+    <string name="paytype_vouchers">代金券</string>
+    <string name="paytype_vouchers_no">2</string>
+
+    <string name="paytype_cheque">支票</string>
+    <string name="paytype_cheque_no">8</string>
+
+    <string name="paytype_transfer">银行转账</string>
+    <string name="paytype_transfer_no">6</string>
+
+    <!--<string name="paytype_sign_company">公司签单</string>-->
+
+    <!--<string name="paytype_sign_stockholder">股东签单</string>-->
+
+    <!--<string name="paytype_transfer">银行转账</string>-->
+
+
+</resources>

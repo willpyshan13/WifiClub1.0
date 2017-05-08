@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/rl_edit_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:background="@color/common_white"
+        android:orientation="vertical">
+
+        <LinearLayout
+                android:id="@+id/ll_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rl_event_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:orientation="vertical"
+                    android:paddingLeft="40px"
+                    android:paddingRight="40px" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/common_gray" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_price_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:orientation="vertical"
+                    android:paddingLeft="40px"
+                    android:paddingRight="40px" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/common_gray" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_separator"
+                    android:layout_width="match_parent"
+                    android:layout_height="25px"
+                    android:orientation="vertical" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/common_gray" />
+
+
+            <ListView
+                android:id="@+id/edit_listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/common_gray" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_add_date_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"
+                    android:orientation="vertical"
+                    android:paddingLeft="40px"
+                    android:paddingRight="40px" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/common_gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_delete_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_container"
+                android:orientation="vertical"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:paddingTop="30px" />
+
+            <LinearLayout
+                android:id="@+id/popup_window"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical" />
+    </LinearLayout>
+</ScrollView>

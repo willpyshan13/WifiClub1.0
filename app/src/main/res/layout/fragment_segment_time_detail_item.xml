@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_course_name_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_course_area_name_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/common_white" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_course_area_name_middle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/common_white" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_course_area_name_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/common_white" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/common_separator_gray"/>
+
+    <ListView
+        android:id="@+id/lv_segment_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

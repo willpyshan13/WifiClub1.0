@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_content_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/sticky_header"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:background="@color/common_gray"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_search_view"/>
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/common_gray"
+            android:text="@string/common_search"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitStart"
+            android:padding="4dp"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/common_none"
+            android:layout_toStartOf="@id/tv_search"
+            android:src="@drawable/icon_search"/>
+
+    </RelativeLayout>
+
+    <com.viewpagerindicator.TabPageIndicator
+        android:id="@+id/tab_page_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sticky_header"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_shopping_cart_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_white"
+        android:layout_alignParentBottom="true" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_goods_list_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rl_shopping_cart_container"
+        android:layout_below="@id/tab_page_indicator" />
+
+
+</RelativeLayout>

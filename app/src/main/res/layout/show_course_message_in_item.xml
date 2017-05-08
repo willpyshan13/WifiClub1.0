@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <cn.situne.itee.view.IteeTextView
+        android:id="@+id/messageTv"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_black"
+        android:layout_weight="1.3" />
+
+    <cn.situne.itee.view.IteeTextView
+        android:id="@+id/messageOneTv"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_black"
+        android:layout_marginStart="3dp"
+        android:layout_weight="1" />
+
+    <cn.situne.itee.view.IteeTextView
+        android:id="@+id/messageTwoTv"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_black"
+        android:layout_marginStart="3dp"
+        android:layout_weight="1" />
+
+    <cn.situne.itee.view.IteeTextView
+        android:id="@+id/messageThreeTv"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_black"
+        android:layout_marginStart="3dp"
+        android:layout_weight="1" />
+
+    <cn.situne.itee.view.IteeTextView
+        android:id="@+id/messageFourTv"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_black"
+        android:layout_marginStart="3dp"
+        android:layout_weight="1" />
+
+    <cn.situne.itee.view.IteeTextView
+        android:id="@+id/messageFiveTv"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_black"
+        android:layout_marginStart="3dp"
+        android:layout_weight="1" />
+
+    <cn.situne.itee.view.IteeTextView
+        android:id="@+id/messageSixTv"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_black"
+        android:layout_marginStart="3dp"
+        android:layout_weight="1" />
+
+    <cn.situne.itee.view.IteeTextView
+        android:id="@+id/messageSevenTv"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_black"
+        android:layout_marginStart="3dp"
+        android:layout_weight="1" />
+
+    <cn.situne.itee.view.IteeTextView
+        android:id="@+id/messageEightTv"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_black"
+        android:layout_marginStart="3dp"
+        android:layout_weight="1" />
+
+    <cn.situne.itee.view.IteeTextView
+        android:id="@+id/messageNineTv"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_black"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

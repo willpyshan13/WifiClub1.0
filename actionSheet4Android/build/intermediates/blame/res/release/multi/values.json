@@ -1,0 +1,186 @@
+[
+    {
+        "outputFile": "E:\\workspace\\android\\actionSheet4Android\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 993,
+                    "endColumn": 57,
+                    "endOffset": 1046
+                },
+                "from": {
+                    "file": "E:\\workspace\\android\\actionSheet4Android\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 57,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 1051,
+                    "endColumn": 55,
+                    "endOffset": 1102
+                },
+                "from": {
+                    "file": "E:\\workspace\\android\\actionSheet4Android\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 55,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 1107,
+                    "endColumn": 52,
+                    "endOffset": 1155
+                },
+                "from": {
+                    "file": "E:\\workspace\\android\\actionSheet4Android\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 168,
+                        "endColumn": 52,
+                        "endOffset": 216
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 1160,
+                    "endColumn": 58,
+                    "endOffset": 1214
+                },
+                "from": {
+                    "file": "E:\\workspace\\android\\actionSheet4Android\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 58,
+                        "endOffset": 110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1219,
+                    "endColumn": 52,
+                    "endOffset": 1267
+                },
+                "from": {
+                    "file": "E:\\workspace\\android\\actionSheet4Android\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 115,
+                        "endColumn": 52,
+                        "endOffset": 163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1272,
+                    "endLine": 22,
+                    "endColumn": 12,
+                    "endOffset": 2141
+                },
+                "from": {
+                    "file": "E:\\workspace\\android\\actionSheet4Android\\src\\main\\res\\values\\as_theme.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2146,
+                    "endLine": 36,
+                    "endColumn": 12,
+                    "endOffset": 3048
+                },
+                "from": {
+                    "file": "E:\\workspace\\android\\actionSheet4Android\\src\\main\\res\\values\\as_theme.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 931,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 1833
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3053,
+                    "endLine": 44,
+                    "endColumn": 12,
+                    "endOffset": 3358
+                },
+                "from": {
+                    "file": "E:\\workspace\\android\\actionSheet4Android\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 193,
+                        "endLine": 14,
+                        "endColumn": 12,
+                        "endOffset": 504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3363,
+                    "endLine": 47,
+                    "endColumn": 12,
+                    "endOffset": 3503
+                },
+                "from": {
+                    "file": "E:\\workspace\\android\\actionSheet4Android\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 545,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 687
+                    }
+                }
+            }
+        ]
+    }
+]

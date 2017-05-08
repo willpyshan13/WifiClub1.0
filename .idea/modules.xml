@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CalendarLib/CalendarLib.iml" filepath="$PROJECT_DIR$/CalendarLib/CalendarLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingMenu/SlidingMenu.iml" filepath="$PROJECT_DIR$/SlidingMenu/SlidingMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/actionSheet4Android/actionSheet4Android.iml" filepath="$PROJECT_DIR$/actionSheet4Android/actionSheet4Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefreshLib/pullToRefreshLib.iml" filepath="$PROJECT_DIR$/pullToRefreshLib/pullToRefreshLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewPagerIndicatorLib/viewPagerIndicatorLib.iml" filepath="$PROJECT_DIR$/viewPagerIndicatorLib/viewPagerIndicatorLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xCLCharts/xCLCharts.iml" filepath="$PROJECT_DIR$/xCLCharts/xCLCharts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
+    </modules>
+  </component>
+</project>

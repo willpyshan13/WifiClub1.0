@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logo_label"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/et_account"
+        android:layout_marginBottom="80dp"
+        android:textColor="@color/primary"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_above="@+id/empty_view_middle"
+        android:hint="@string/common_username"
+        android:background="@drawable/bg_light_gray_with_corner"
+        android:gravity="center_vertical"
+        android:paddingStart="50dp"
+        android:paddingEnd="5dp"
+        android:id="@+id/et_account"
+        android:lines="1"
+        android:textColor = "#000000"
+        />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/et_account"
+        android:layout_alignTop="@+id/et_account"
+        android:layout_marginStart="12.5dp"
+        android:layout_marginTop="12.5dp"
+        android:src="@drawable/icon_account"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/empty_view_middle"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/et_account"
+        android:layout_alignEnd="@+id/et_account"
+        android:layout_below="@+id/empty_view_middle"
+        android:hint="@string/common_password"
+        android:background="@drawable/bg_light_gray_with_corner"
+        android:gravity="center_vertical"
+        android:paddingStart="50dp"
+        android:paddingEnd="5dp"
+        android:inputType="textPassword"
+        android:id="@+id/et_password"
+        android:lines="1"
+        android:textColor = "#000"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/et_password"
+        android:layout_alignTop="@+id/et_password"
+        android:layout_marginStart="12.5dp"
+        android:layout_marginTop="12.5dp"
+        android:src="@drawable/icon_password"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_privacy_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/et_password"
+        >
+        <CheckBox
+            android:id="@+id/ckbPrivacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_white"
+            android:checked="true"
+            android:layout_weight="0.1"
+            />
+
+        <TextView
+            android:id="@+id/tvPrivacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_gray"
+            android:text="我已阅读并同意《服务协议》和《隐私政策》"
+            android:autoLink="all"
+            android:textSize="15sp"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_about"
+        android:layout_alignStart="@+id/et_account"
+        android:layout_below="@+id/ll_privacy_container"
+        android:text="@string/login_about"
+        android:textColor="@color/primary_dark"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_forget_pass"
+        android:layout_alignEnd="@+id/et_account"
+        android:layout_alignTop="@+id/tv_about"
+        android:text="@string/forgot_password"
+        android:textColor="@color/primary_dark"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/et_account"
+        android:layout_alignEnd="@+id/et_account"
+        android:layout_below="@+id/tv_about"
+        android:layout_marginTop="32dp"
+        android:id="@+id/btn_login"
+        android:text="@string/login_btn_content"
+        android:textColor="@android:color/white"
+        android:background="@drawable/bg_login_selector"
+        android:textSize="16sp"
+        />
+
+</RelativeLayout>

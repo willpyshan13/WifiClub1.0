@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:id="@+id/rl_pop_title"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="40dp">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_segment_course"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/common_white">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/common_separator_gray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_course_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/common_separator_gray" />
+
+        </RelativeLayout>
+
+
+        <ListView
+            android:id="@+id/course_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transfer_course_item">
+
+        </ListView>
+
+        <RelativeLayout
+            android:id="@+id/rl_course_list_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/common_separator_gray" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_two_tee_start_btn"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:background="@color/common_white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/common_separator_gray" />
+
+
+            <RelativeLayout
+                android:id="@+id/rl_two_tee_start_course_first"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@color/common_white"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/common_separator_gray" />
+
+            <RelativeLayout
+                android:id="@+id/rl_two_tee_start_course_second"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@color/common_white"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/common_separator_gray" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_three_tee_start_btn"
+            android:layout_width="match_parent"
+            android:layout_height="199dp"
+            android:background="@color/common_white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/common_separator_gray" />
+
+
+            <RelativeLayout
+                android:id="@+id/rl_three_tee_start_course_first"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@color/common_white"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/common_separator_gray" />
+
+            <RelativeLayout
+                android:id="@+id/rl_three_tee_start_course_second"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@color/common_white"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/common_separator_gray" />
+
+            <RelativeLayout
+                android:id="@+id/rl_three_tee_start_course_third"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@color/common_white"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/common_separator_gray" />
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_start_time"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_gray" />
+
+        <RelativeLayout
+            android:id="@+id/rl_end_time"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical" />
+
+
+        <RelativeLayout
+            android:id="@+id/rl_segment_all_reserved"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/common_white"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/common_separator_gray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_segment_member_type"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/common_white">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/common_separator_gray" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/member_type_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/transfer_course_item">
+
+        </ListView>
+
+        <RelativeLayout
+            android:id="@+id/rl_segment_prime_time"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/common_white"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentTop="true"
+                android:background="@color/common_separator_gray" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/common_separator_gray" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_of_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical" />
+
+
+        <LinearLayout
+            android:id="@+id/popup_window"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:id="@+id/popup_courseWindow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

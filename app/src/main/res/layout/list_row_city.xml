@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <cn.situne.itee.view.IteeTextView
+        android:id="@+id/tvLetter"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/common_white"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:text="A"
+        android:textColor="#3399ff"
+        android:textSize="28sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rl_member_item_all"
+        android:layout_height="60dp">
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_city_english_name"
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textColor="@color/common_black"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_city_chinese_name"
+            android:layout_marginStart="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textColor="@color/common_black"
+            android:layout_toEndOf="@id/tv_city_english_name"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

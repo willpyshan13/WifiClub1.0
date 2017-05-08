@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/itemBody"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/common_white"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/member_item_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/common_white">
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_time"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_black"/>
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_date"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/iv_right_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/member_item_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/item_right_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/common_red"
+            android:gravity="center"
+            android:text="@string/common_delete"
+            android:textColor="@color/common_white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

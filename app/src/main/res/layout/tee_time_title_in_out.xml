@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50dp"
+    android:layout_height="40dp"
+
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <cn.situne.itee.view.IteeTextView
+        android:id="@+id/date_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"/>
+
+    <cn.situne.itee.view.IteeTextView
+        android:id="@+id/date_out_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/common_blue"/>
+</LinearLayout>

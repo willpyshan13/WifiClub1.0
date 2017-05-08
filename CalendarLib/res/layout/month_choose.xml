@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.squareup.timessquare.ChooseMonthView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/month_title_bg">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/CalendarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="@dimen/calendar_month_title_bottommargin"
+            android:layout_marginTop="@dimen/calendar_month_topmargin"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/quick_select"
+            style="@style/CalendarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="@dimen/calendar_month_title_bottommargin"
+            android:layout_marginRight="@dimen/calendar_month_title_bottommargin"
+            android:layout_marginTop="@dimen/calendar_month_topmargin"
+            android:text="@string/quick_select"
+            android:textColor="@color/calendar_text_comment"
+            android:gravity="center_horizontal" />
+    </RelativeLayout>
+
+
+    <com.squareup.timessquare.ChooseCalendarGridView
+        android:id="@+id/calendar_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_blue">
+
+        <com.squareup.timessquare.ChooseCalendarRowView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/calendar_day_headers_paddingtop"
+            android:paddingBottom="@dimen/calendar_day_headers_paddingbottom">
+
+
+            <TextView
+                style="@style/CalendarCell.DayHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/CalendarCell.DayHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/CalendarCell.DayHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/CalendarCell.DayHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/CalendarCell.DayHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/CalendarCell.DayHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/CalendarCell.DayHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </com.squareup.timessquare.ChooseCalendarRowView>
+
+        <include layout="@layout/week_choose" />
+
+        <include layout="@layout/week_choose" />
+
+        <include layout="@layout/week_choose" />
+
+        <include layout="@layout/week_choose" />
+
+        <include layout="@layout/week_choose" />
+
+        <include layout="@layout/week_choose" />
+    </com.squareup.timessquare.ChooseCalendarGridView>
+</com.squareup.timessquare.ChooseMonthView>

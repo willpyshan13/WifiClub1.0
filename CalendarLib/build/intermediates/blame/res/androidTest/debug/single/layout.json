@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\month.xml",
+        "source": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\bundles\\debug\\res\\layout\\month.xml"
+    },
+    {
+        "merged": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\month_choose.xml",
+        "source": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\bundles\\debug\\res\\layout\\month_choose.xml"
+    },
+    {
+        "merged": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\week_choose.xml",
+        "source": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\bundles\\debug\\res\\layout\\week_choose.xml"
+    },
+    {
+        "merged": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\week.xml",
+        "source": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\bundles\\debug\\res\\layout\\week.xml"
+    },
+    {
+        "merged": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\month_advanced.xml",
+        "source": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\bundles\\debug\\res\\layout\\month_advanced.xml"
+    },
+    {
+        "merged": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\week_advanced.xml",
+        "source": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\bundles\\debug\\res\\layout\\week_advanced.xml"
+    }
+]

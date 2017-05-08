@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_gooditem_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/common_white"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/date_flag"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:text="%"
+            android:textColor="@color/common_blue"/>
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/date"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/common_blue"/>
+
+        <Button
+            android:id="@+id/btn_gooditem_add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/btn_transfer_add"/>
+
+        <HorizontalScrollView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/date"
+            android:layout_toStartOf="@id/btn_gooditem_add">
+
+            <LinearLayout
+                android:id="@+id/hsv_gooditem_center"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ls_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/item_left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/list_item_bottom_line"
+        android:orientation="horizontal">
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="start"
+            android:singleLine="true"
+            android:textColor="@color/common_black"
+            android:textSize="18sp" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:gravity="end"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:textColor="@color/common_black"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/iv_arrow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_right_arrow" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/item_right"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/list_item_bottom_line">
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/item_right_refund"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/common_red"
+            android:gravity="center"
+            android:text="@string/player_info_purchase_refund"
+            android:textColor="@color/common_white" />
+    </LinearLayout>
+
+</LinearLayout>

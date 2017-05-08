@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/refresh_list_view_header_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/home_course_area_title_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <cn.situne.itee.view.IteeTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_left_course_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/common_white" />
+
+            <ImageView
+                android:id="@+id/iv_left_course_lock_status"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="6dp"
+                android:layout_toEndOf="@+id/tv_left_course_area"
+                android:background="@drawable/icon_password" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_right_course_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/common_white" />
+
+            <ImageView
+                android:id="@+id/iv_right_course_lock_status"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="6dp"
+                android:layout_toEndOf="@+id/tv_right_course_area"
+                android:background="@drawable/icon_password" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/lv_page_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null" />
+
+</LinearLayout>

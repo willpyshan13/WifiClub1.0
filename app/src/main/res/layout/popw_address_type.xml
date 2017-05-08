@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_address_type_home"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="@string/tag_home"
+            android:textColor="@color/common_blue"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_repay"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="@string/tag_work"
+            android:textColor="@color/common_blue"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_choose_other_payment"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="@string/tag_mobile"
+            android:textColor="@color/common_blue"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_address_type_other"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="@string/tag_other"
+            android:textColor="@color/common_blue"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_address_type_custom"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="@string/tag_custom"
+            android:textColor="@color/common_blue"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue" />
+
+        <LinearLayout
+            android:id="@+id/ll_address_type_custom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+
+            <cn.situne.itee.view.IteeEditText
+                android:id="@+id/et_address_type_custom"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="7"
+                android:background="@drawable/textview_corner" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_address_type_custom_confirm"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:layout_weight="3"
+                android:background="@drawable/textview_corner_red"
+                android:gravity="center"
+                android:text="@string/common_confirm"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

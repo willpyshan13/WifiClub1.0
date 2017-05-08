@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- common -->
+    <color name="common_white_gray">#F0F0F0</color>
+    <color name="common_black">#303030</color>
+    <color name="common_gray">#C3C3C3</color>
+    <color name="common_white">#FFFFFF</color>
+    <color name="common_blue">#003A78</color>
+    <color name="common_red">#FF0000</color>
+    <color name="common_red_pressed">#9F2925</color>
+    <color name="common_no_content">#F7F7F7</color>
+    <color name="common_separator_gray">#C4C4C4</color>
+    <color name="chart_separator_gray">#E0E0E0</color>
+    <color name="common_transparent">#00000000</color>
+    <color name="common_green">#4FC34C</color>
+    <color name="common_green_pressed">#043D2A</color>
+    <color name="common_deep_gray">#999999</color>
+    <color name="common_fleet_blue">#3399CC</color>
+    <color name="common_high_light_blue">#31A3C6</color>
+    <color name="common_light_gray">#EAEAEA</color>
+    <color name="common_back_half_gray">#F7F7F7</color>
+    <color name="common_wanted_green">#59ca56</color>
+    <color name="common_wanted_red">#ff5657</color>
+    <color name="common_half_white">#AAFFFFFF</color>
+    <color name="common_deep_blue">#02336E</color>
+    <color name="wheel_blue">#013b7a</color>
+    <color name="whell_background_blue">#bdcbd8</color>
+    <color name="whell_unselect_blue">#9daabd</color>
+
+
+    <color name="common_package_gray">#ededed</color>
+
+    <color name="common_package_separator_gray">#f7f7f7</color>
+
+    <!-- login activity -->
+    <color name="login_about">#00fff6</color>
+    <color name="login_forgot_password">#A4B1CF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="primary_dark">#275141</color>
+    <!-- menu -->
+    <color name="menu_selected_mark">#26D7F0</color>
+    <color name="menu_user_name">#27E6FF</color>
+
+    <!-- home -->
+    <color name="home_course_area_title_background">#9BBDDC</color>
+
+    <!-- transfer time -->
+    <color name="transfer_time_bg">#EDEDED</color>
+
+    <!-- change password-->
+    <color name="change_password_bg">#E7E7E7</color>
+
+    <!-- segment times-->
+    <color name="bg_green_of_1">#C9F2D7</color>
+    <color name="bg_green_of_2">#8AEDAB</color>
+    <color name="bg_green_of_3">#44C76F</color>
+    <color name="bg_purple_of_1">#EADDF8</color>
+    <color name="bg_purple_of_2">#DAC8EC</color>
+    <color name="bg_purple_of_3">#BFA6D8</color>
+    <color name="bg_blue_of_1">#D0E2F3</color>
+    <color name="bg_blue_of_2">#B9D2EA</color>
+    <color name="bg_blue_of_3">#A2C1DE</color>
+
+    <!-- tee times calendar-->
+    <color name="custom_header_text">#85B100</color>
+    <color name="custom_selected">#A8D324</color>
+    <color name="custom_background">#F0F8DB</color>
+    <color name="custom_background_today">#FF9105</color>
+    <color name="custom_background_disabled">#F0F8DB</color>
+    <color name="custom_text_selected">#FFFFFFFF</color>
+    <color name="custom_text_inactive">#7f778088</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="bg_btn_pink">#FF5757</color>
+
+    <!-- refresh list view header background -->
+    <color name="refresh_list_view_header_background">#FFFFFF</color>
+
+
+    <color name="segment_time_item">#CBD0DB</color>
+    <color name="transfer_course_item">#EDEDED</color>
+
+    <color name="offers_hint_text_color">#c3c3c3</color>
+    
+    <color name="chart_02_per_capita_background">#DFEBEE</color>
+    <color name="chart_02_blue_font">#4DA9CF</color>
+    <color name="chart_gray_font">#7B7B7B</color>
+    <color name="shopping_voucher_back">#667e97</color>
+
+    <color name="chart_detail_text">#707070</color>
+    <color name="chart_detail_line1">#eff3f3</color>
+    <color name="chart_detail_line2">#dfebef</color>
+
+    <!--  -->
+    <color name="primary">#009865</color>
+    <color name="light_gray_indicator">#DFDFCF</color>
+
+</resources>

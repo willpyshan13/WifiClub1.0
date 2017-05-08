@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_sliding_menu_row_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_menu_selected_mark"
+        android:layout_width="10dp"
+        android:layout_height="match_parent" />
+
+    <cn.situne.itee.view.IteeTextView
+        android:id="@+id/tv_menu_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#FFFFFF"
+        android:gravity="center_vertical"
+        android:layout_marginStart="40dp"/>
+
+</RelativeLayout>

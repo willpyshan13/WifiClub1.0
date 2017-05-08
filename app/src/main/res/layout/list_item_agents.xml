@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/member_item_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_linear_selector_color_white">
+
+        <View
+            android:id="@+id/vi_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/common_separator_gray" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/member_item_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/item_right_delete"
+            android:background="@color/common_red"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/common_delete"
+            android:textColor="@color/common_white"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

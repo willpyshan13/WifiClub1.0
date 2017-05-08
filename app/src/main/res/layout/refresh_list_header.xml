@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/common_blue">
+
+    <ProgressBar
+        android:id="@+id/refresh_list_header_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyleSmall"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/refresh_list_header_pull_down"
+        android:layout_width="9dip"
+        android:layout_height="25dip"
+        android:layout_gravity="center"
+        android:src="@drawable/segment_icon_bottom_arrow" />
+
+    <ImageView
+        android:id="@+id/refresh_list_header_release_up"
+        android:layout_width="9dip"
+        android:layout_height="25dip"
+        android:layout_gravity="center"
+        android:src="@drawable/segment_icon_left_arrow"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="180dip"
+        android:layout_height="wrap_content">
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/refresh_list_header_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:textSize="12dip"
+            android:textColor="#192F06"
+            android:paddingTop="8dip"
+            android:text="@string/app_list_header_refresh_down" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/refresh_list_header_last_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@id/refresh_list_header_text"
+            android:textSize="12dip"
+            android:textColor="#192F06"
+            android:paddingBottom="8dip"
+            android:text="@string/app_list_header_refresh_loading_more"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

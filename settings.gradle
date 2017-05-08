@@ -1,0 +1,4 @@
+include ':app', ':SlidingMenu', ':CalendarLib', ':zxing', ':xCLCharts'
+include ':viewPagerIndicatorLib'
+include ':pullToRefreshLib'
+include ':actionSheet4Android'

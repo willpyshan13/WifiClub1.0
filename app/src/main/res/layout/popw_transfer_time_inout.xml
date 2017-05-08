@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/ll_hour_and_min_container"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_hour"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical|start"
+                android:text="@string/transfer_time"
+                android:textSize="25sp" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_min"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:id="@+id/ll_wheel_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <cn.situne.itee.common.widget.wheel.SelectTimeWheelView
+                android:id="@+id/wheel_inout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="2px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="?android:attr/listDivider" />
+
+            <cn.situne.itee.common.widget.wheel.SelectTimeWheelView
+                android:id="@+id/wheel_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="10dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:id="@+id/rl_ok_and_cancel_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/common_ok"
+                android:textSize="25sp"
+                android:background="@color/common_white"
+                android:textColor="@color/common_blue" />
+
+            <View
+                android:layout_width="2px"
+                android:layout_height="match_parent"
+                android:background="?android:attr/listDivider"
+                />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/common_delete"
+                android:textSize="25sp"
+                android:background="@color/common_white"
+                android:textColor="@color/common_red" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

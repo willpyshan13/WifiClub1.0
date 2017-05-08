@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_citywithindex"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_citywithindex_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:id="@+id/rl_city_with_index_title_container"
+        android:layout_width="match_parent">
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_city_with_index_title"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:clickable="true"
+            android:background="@color/common_white"
+            android:gravity="center_vertical"
+            android:paddingStart="15dp"
+            android:paddingEnd="5dp"
+            android:textColor="#3399ff"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+</RelativeLayout>

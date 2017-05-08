@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/ll_title_container"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_year"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/common_black"
+                android:text="@string/player_info_edit_year"
+                android:textSize="25sp" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_month"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/common_black"
+                android:text="@string/player_info_edit_month"
+                android:textSize="25sp" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_day"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/common_black"
+                android:text="@string/player_info_edit_day"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:background="@color/common_separator_gray"/>
+
+        <LinearLayout
+            android:id="@+id/ll_wheel_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <cn.situne.itee.common.widget.wheel.SelectTimeWheelView
+                android:id="@+id/wheel_year"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+            <cn.situne.itee.common.widget.wheel.SelectTimeWheelView
+                android:id="@+id/wheel_month"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+            <cn.situne.itee.common.widget.wheel.SelectTimeWheelView
+                android:id="@+id/wheel_day"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:background="@color/common_separator_gray"/>
+
+        <LinearLayout
+            android:id="@+id/rl_ok_and_cancel_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/common_ok"
+                android:textSize="25sp"
+                android:textColor="@color/common_blue" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/common_cancel"
+                android:textSize="25sp"
+                android:textColor="@color/common_blue" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

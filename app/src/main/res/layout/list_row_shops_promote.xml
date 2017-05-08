@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_top_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_product_attr"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_date_period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_original_price"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"/>
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/tv_promote_price"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

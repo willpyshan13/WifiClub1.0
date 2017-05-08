@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_content_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/rl_newteetimes_memeber_select_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rlayCardNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <cn.situne.itee.view.IteeTextView
+                    android:id="@+id/lblCardNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|left"
+                    android:text="卡号：" />
+
+            <cn.situne.itee.view.IteeEditText
+                android:id="@+id/txtCardNo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            </RelativeLayout>
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_newteetimes_memeber_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:gravity="center_vertical|left"
+                android:text="name"/>
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/im_newteetimes_memeber_photo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:src="@drawable/member_photo"/>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="@color/common_gray"/>
+
+        <LinearLayout
+            android:id="@+id/rl_newteetimes_memeber_select_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:orientation="vertical"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4">
+
+            <LinearLayout
+                android:id="@+id/rl_goods_list_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"/>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/rl_newteetimes_memeber_select_bottom_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\merber_only.png",
+        "source": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\merber_only.png"
+    },
+    {
+        "merged": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\two_tee_start.png",
+        "source": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\two_tee_start.png"
+    },
+    {
+        "merged": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\prime_time.png",
+        "source": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\prime_time.png"
+    },
+    {
+        "merged": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\block_times.png",
+        "source": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\block_times.png"
+    },
+    {
+        "merged": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\booking_here.png",
+        "source": "E:\\workspace\\android\\CalendarLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\booking_here.png"
+    }
+]

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+
+        <Button
+            android:id="@+id/bt_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_blue"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/bt_work"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/common_blue"
+            android:text="Work" />
+
+        <Button
+            android:id="@+id/bt_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/common_blue"
+            android:text="Mobile" />
+
+        <Button
+            android:id="@+id/bt_other"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/common_blue"
+            android:text="Other" />
+
+        <Button
+            android:id="@+id/bt_custom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/common_blue"
+            android:text="Custom" />
+
+    </LinearLayout>
+
+</RelativeLayout>

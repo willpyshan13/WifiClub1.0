@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/btn_nine_holes_only"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/player_info_tel_type_home"
+            android:textColor="@color/common_blue"
+            android:background="#ffffff"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/btn_block_times"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/player_info_tel_type_work"
+            android:textColor="@color/common_blue"
+            android:background="#ffffff"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/btn_member_only"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/player_info_tel_type_mobile"
+            android:textColor="@color/common_blue"
+            android:background="#ffffff"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/btn_three_tee_start"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/player_info_tel_type_other"
+            android:textColor="@color/common_blue"
+            android:background="#ffffff"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/common_blue" />
+
+        <cn.situne.itee.view.IteeTextView
+            android:id="@+id/btn_prime_time"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/player_info_tel_type_custom"
+            android:textColor="@color/common_blue"
+            android:background="#ffffff"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

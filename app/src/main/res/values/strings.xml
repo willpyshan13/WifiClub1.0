@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WiFiClub</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo_label">WIFICLUB</string>
+
+    <!-- common -->
+    <string name="common_today">Today</string>
+    <string name="common_ok">OK</string>
+    <string name="common_next">Next</string>
+
+    <string name="common_in">IN</string>
+    <string name="common_out">OUT</string>
+    <string name="common_on">On</string>
+    <string name="common_off">Off</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_search">Search</string>
+    <string name="common_no">No</string>
+    <string name="common_confirm">Confirm</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_save">OK</string>
+    <string name="common_edit">Edit</string>
+    <string name="common_add">Add</string>
+    <string name="common_select">Select</string>
+    <string name="common_undo">Undo</string>
+    <string name="common_min">Min</string>
+    <string name="common_uploading">uploading</string>
+    <string name="common_remove">Remove</string>
+    <string name="common_plus">+</string>
+    <string name="common_loading_failed">Loading failed</string>
+    <string name="common_try_again">Try again</string>
+    <string name="common_name">Name</string>
+    <string name="common_photo">Photo</string>
+    <string name="common_home">Home</string>
+    <string name="common_work">Work</string>
+    <string name="common_age">Age</string>
+    <string name="common_age_start">Start age</string>
+    <string name="common_age_end">End age</string>
+    <string name="common_username">Username</string>
+    <string name="common_password">Password</string>
+    <string name="common_required">Required</string>
+    <string name="common_week">Week</string>
+    <string name="common_confirm_delete">Confirm delete</string>
+    <string name="common_confirm_save">Confirm save</string>
+    <string name="common_male">male</string>
+    <string name="common_female">female</string>
+    <string name="common_deselect">Deselect</string>
+    <string name="common_total">Total</string>
+    <string name="common_operate_after_adding">(Operate after adding)</string>
+    <string name="common_must_be_filled_in">{0} must be filled in!</string>
+    <string name="common_must_be_larger_than">{0} must be larger than {1}</string>
+    <string name="common_log_in_elsewhere_exit_now">log in elsewhere, exit now </string>
+    <string name="common_password_size_message">The password should be 6&#8211;16 characters</string>
+    <string name="common_username_size_message">The username should be 6&#8211;16 characters</string>
+    <string name="common_product">Product</string>
+    <string name="common_do_not_have_permission">You do not have this permission!</string>
+    <string name="common_green_fee">Green-Fee</string>
+    <string name="common_holes">holes</string>
+    <string name="common_year">Year</string>
+    <string name="common_month">Month</string>
+    <string name="common_day">Day</string>
+    <string name="common_hour">Hour</string>
+    <string name="common_minute">Min</string>
+    <string name="common_none"> </string>
+    <string name="common_tel">Tel : </string>
+    <string name="common_start_date">Start Date</string>
+    <string name="common_end_date">End Date</string>
+    <string name="common_continue">Continue</string>
+
+
+    <!-- error -->
+    <string name="error_mes00001">Name must be filled.</string>
+    <string name="error_mes00002">Please input correct number.</string>
+    <string name="error_mes00003">Please input correct phone number.</string>
+    <string name="error_mes00004">Please input correct email.</string>
+    <string name="error_mes00005">Can not sign more guests.</string>
+    <string name="error_mes00006">You are booking in 9 hole only segment. Sure you want to continue?</string>
+    <string name="error_mes00007">Someone has checked out.</string>
+    <string name="error_mes00008">Caddies are all on the course.</string>
+
+
+    <!-- titles -->
+    <string name="title_about">About WiFiClub Systems Ltd.</string>
+    <string name="title_forgot_password">Forgot password</string>
+    <string name="title_change_password">Change password</string>
+    <string name="title_administration">Administration</string>
+    <string name="title_city_select">City</string>
+    <string name="title_timezone_select">Timezone</string>
+    <string name="title_currency_select">Currency</string>
+    <string name="title_course_data">Course data</string>
+    <string name="title_tee_times">Tee times</string>
+    <string name="title_shopping_setting">Shop settings</string>
+    <string name="title_promote_shop">Offers</string>
+    <string name="title_qr_code">QR code</string>
+    <string name="title_select_date">Choose Date</string>
+
+    <!-- menu -->
+    <string name="menu_user_name">User Name</string>
+    <string name="menu_tee_times">Tee Times</string>
+    <string name="menu_events">Events</string>
+    <string name="menu_shops">Shops</string>
+    <string name="menu_customers">Customers</string>
+    <string name="menu_agents">Agents</string>
+    <string name="menu_staff">Staff</string>
+    <string name="menu_news">News</string>
+    <string name="menu_charts">Reports</string>
+    <string name="menu_administration">Administration</string>
+    <string name="menu_scan_qr_code">Scan QR code</string>
+    <string name="menu_logout">Log out</string>
+    <string name="menu_separator">-</string>
+
+
+    <!-- login -->
+    <string name="login_btn_content">LOG IN</string>
+    <string name="login_about">About WiFiClub Systems Ltd.</string>
+    <string name="login_forgot_password">Forgot password?</string>
+    <string name="login_forgot_password_input_account">Please input your account</string>
+
+    <!-- about -->
+    <string name="about_email">Email</string>
+    <string name="about_phone">Phone No.</string>
+    <string name="about_office_address">Office address</string>
+    <string name="about_email_content">Alex.armas@iteesystems.com</string>
+    <string name="about_phone_content">13333333333</string>
+    <string name="about_office_address_content">45 Wycombe End, Beaconsfield,\nBuckinghamshire,HP9 1LZ.</string>
+    <string name="about_version">Version</string>
+
+
+    <!-- forgot password -->
+    <string name="forgot_password">Forgot password</string>
+    <string name="forgot_password_account">Please input your account</string>
+    <string name="forgot_password_send_random_password">Send random password</string>
+    <string name="forgot_password_tips">Tips : Temporary password will be sent to your mobilephone or email,please login and change your password.</string>
+
+    <!-- change password -->
+    <string name="change_password">change password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="new_password">New password</string>
+    <string name="old_password">Old password</string>
+
+    <!-- add tee time -->
+    <string name="tee_time_setting">Tee time setting</string>
+    <string name="transfer_time">Transfer time</string>
+
+    <string name="reservation_time">Reservation time</string>
+
+    <string name="title_activity_segment_times">Segment times</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="add_message_text">Add a profile</string>
+
+    <!-- 03-8-1 -->
+    <string name="segment_tee_times">Tee times</string>
+    <string name="segment_segment_times">Segment times</string>
+
+    <!-- New Tee Times -->
+    <string name="newteetimes_caddie">Caddie</string>
+    <string name="newteetimes_name_hint">Name</string>
+    <string name="newteetimes_tel_hint">Tel</string>
+    <string name="newteetimes_tel_title_start">New Tee Times(</string>
+    <string name="newteetimes_tel_title_end">)</string>
+    <string name="newteetimes_btn_incoming_add">Add</string>
+    <string name="newteetimes_btn_incoming_delete">Delete</string>
+    <string name="newteetimes_btn_incoming_call">Call</string>
+    <string name="newteetimes_btn_add_a_profile">Add a profile</string>
+    <string name="teetimes_actionbar_incoming">Incoming record</string>
+    <string name="msg_save_change">Save Changes?</string>
+    <string name="msg_confirm_call">Call：</string>
+    <string name="newteetimes_members">Members</string>
+    <string name="newteetimes_agents">Agents</string>
+    <string name="newteetimes_events">Events</string>
+    <string name="newteetimes_no_members">Non-members</string>
+
+    <string name="newteetimes_menu_cart">Cart</string>
+    <string name="newteetimes_menu_clubs">Clubs</string>
+    <string name="newteetimes_menu_shoes">Shoes</string>
+    <string name="newteetimes_menu_trolley">Trolley</string>
+    <string name="newteetimes_menu_umbrella">Umbrella</string>
+    <string name="newteetimes_menu_towel">Towel</string>
+
+
+    <!-- CourseData -->
+    <string name="title_activity_new_course_message">OUT</string>
+    <string name="title_activity_single_hole_message">Hole1</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_button">Delete</string>
+    <string name="add_course">Course</string>
+    <string name="add_out">OUT</string>
+    <string name="add_holes">Holes</string>
+    <string name="add_yards">Yards/Metres</string>
+    <string name="add_index">Index</string>
+    <string name="index_enter">Please enter an integer 1-18</string>
+    <string name="add_transfer_course">Transfer course</string>
+    <string name="add_in">IN</string>
+    <string name="add_transfer_time">Transfer time</string>
+    <string name="add_calculate">Calculate</string>
+    <string name="add_tee">TEE</string>
+    <string name="add_time">2h30</string>
+    <string name="add_title_out">OUT</string>
+    <string name="add_title_add_course">Add course</string>
+    <string name="par_is_not_null">Par is not null</string>
+    <string name="time_is_out_of_range">Time is out of range</string>
+    <string name="please_enter_time">Please enter time</string>
+    <string name="course_hole_setting_hole_no">Hole No.</string>
+    <string name="course_add_tee">Add TEE</string>
+    <string name="course_name_is_not_null">courseName is not null</string>
+    <string name="course_tee">TEES</string>
+    <string name="course_hole_setting_par">Par</string>
+    <string name="course_hole_setting_hdcp">HDCP</string>
+    <string name="course_hole_setting_pace">Pace</string>
+    <string name="course_hole_setting_black_tee">Black TEE</string>
+    <string name="course_hole_setting_gold_tee">Golden TEE</string>
+    <string name="course_hole_setting_blue_tee">Blue TEE</string>
+    <string name="course_hole_setting_white_tee">White TEE</string>
+    <string name="course_hole_setting_red_tee">Red TEE</string>
+    <string name="course_hole_setting_add_tee">Add TEE</string>
+    <string name="course_hole_setting_hole">Hole</string>
+    <string name="course_setting_time">2.5H</string>
+    <string name="course_setting_par">Par</string>
+    <string name="course_course">Course</string>
+    <string name="course_black">Black</string>
+    <string name="course_golden">Golden</string>
+    <string name="course_blue">Blue</string>
+    <string name="course_white">White</string>
+    <string name="course_red">Red</string>
+    <string name="course_fill_tee_name">TEE\'s name must be entered</string>
+
+
+    <!-- DoEditAdministration -->
+    <string name="do_edit_administration">Administration</string>
+    <string name="do_edit_administration_city">City</string>
+    <string name="do_edit_administration_city_name">Beijing China</string>
+    <string name="do_edit_administration_date_format">Date Format</string>
+    <string name="do_edit_administration_time_zone">Time Zone</string>
+    <string name="do_edit_administration_time_zone_name">GTM +8</string>
+    <string name="do_edit_administration_currency">Currency</string>
+    <string name="do_edit_administration_currency_name">RMB</string>
+    <string name="do_edit_administration_logout_after">Logout after</string>
+    <string name="do_edit_administration_logout_after_h">H</string>
+    <string name="do_edit_administration_logout_after_m">M</string>
+    <string name="do_edit_administration_send_reserve_message">Send reserve message</string>
+    <string name="do_edit_administration__one_tee">Default one tee start only</string>
+    <string name="do_edit_administration_payment_pattern">Default payment pattern</string>
+    <string name="do_edit_administration_pay_cash">Pay cash</string>
+    <string name="do_edit_administration_sales_tax_excluding">Tax excluding</string>
+    <string name="do_edit_administration_sales_tax">Tax rate</string>
+    <string name="do_edit_administration_show_sales_tax">Show Sales Tax</string>
+    <string name="do_edit_administration_unit">Unit</string>
+    <string name="do_edit_administration_first_day">First day (week)</string>
+    <string name="do_edit_administration_meters">Meters</string>
+    <string name="do_edit_administration_yards">Yards</string>
+    <string name="do_edit_administration_sun">SUN</string>
+    <string name="do_edit_administration_mon">MON</string>
+    <string name="do_edit_administration_add_caddie_fee">Add caddie fee in purchase</string>
+    <string name="do_edit_administration_logout_after_time_tips">logout after time cannot be 0!</string>
+
+
+    <!-- Refresh List Header -->
+    <string name="app_list_header_refresh_down">UPDATE</string>
+    <string name="app_list_header_refresh_loading_more">LOAD MORE</string>
+
+    <!-- Search hint -->
+    <string name="location_search_hint">Please enter a keyword to search</string>
+
+    <!-- Location Chose -->
+    <string name="check_out">Check out</string>
+    <string name="tee_time_shopping_cart">Shopping cart</string>
+    <string name="shopping">Shopping</string>
+    <string name="title_activity_de_select_member_fragment">DeSelectMemberFragment</string>
+
+    <!-- Tee Time Menu -->
+    <string name="course_data">Course data</string>
+    <string name="tee_times">Tee times</string>
+    <!-- NEWS -->
+    <string name="news_add">Add news</string>
+    <string name="news_add_say_something">Say something .......</string>
+
+    <!-- 04-2-3 -->
+    <string name="confirm_delete">Confirm delete</string>
+    <string name="walk_in">WalkIn</string>
+    <string name="undo_check_in">Undo Check in</string>
+    <string name="check_in">Check in</string>
+    <string name="pay">Pay</string>
+
+    <string name="tee_time_guest">Guest</string>
+    <string name="tee_time_agent">Agent</string>
+    <string name="tee_time_event">Event</string>
+    <!-- 04-2-1 -->
+    <string name="check_in_customer_type">Customer type</string>
+    <string name="check_in_confirmation_no">Confirmation no.</string>
+    <string name="check_in_reservation_time">Reservation time</string>
+    <string name="check_in_course">Course</string>
+    <string name="check_in_caller">Caller</string>
+    <string name="check_in_caller_phone_no">Caller\'s phone no.</string>
+
+
+    <!-- 04-8-1 -->
+    <string name="player_profile">Player profile</string>
+    <string name="recharge">Recharge</string>
+    <string name="player_reservations">Reservations</string>
+    <string name="player_past_booking">Past booking</string>
+    <string name="player_signature">Signature</string>
+    <string name="player_purchase_history">Purchase history</string>
+    <string name="player_balance_account">Balance account</string>
+    <string name="player_member_ship">Membership</string>
+    <!-- 04-8-1-1 -->
+    <string name="recharge_type_cash">Pay cash</string>
+    <string name="recharge_type_vouchers">Coupons</string>
+    <string name="recharge_type_credit_card">Credit card</string>
+    <string name="recharge_type_Third_party">Third-Party payment</string>
+
+    <string name="recharge_type_cash_small">pay cash</string>
+    <string name="recharge_type_vouchers_small">coupons</string>
+    <string name="recharge_type_credit_card_small">credit card</string>
+    <string name="recharge_type_Third_party_small">third-Party payment</string>
+
+
+    <string name="recharge_confirm_message">Are you sure to recharge</string>
+    <string name="recharge_confirm_message_by">by</string>
+
+    <!-- 04-8-2 -->
+    <string name="player_info_edit_photo">Photo</string>
+    <string name="player_info_edit_name">Name</string>
+    <string name="player_info_edit_occupaation">Occupation</string>
+    <string name="player_info_edit_birth">Date of birth</string>
+    <string name="player_info_edit_gender_info">Gender info</string>
+    <string name="player_info_edit_general_info">General info</string>
+    <string name="player_info_edit_add_gender_info">Add a profile</string>
+    <string name="player_info_edit_accept">Accept offers info </string>
+    <string name="player_info_edit_hobbies">Hobbies :</string>
+    <string name="player_info_edit_notes">Notes :</string>
+    <string name="player_info_edit_signature">Signature</string>
+    <string name="player_info_edit_add_phone">Add phone</string>
+    <string name="player_info_edit_add_email">Add email</string>
+    <string name="player_info_edit_add_address">Add address</string>
+    <string name="player_info_edit_year">Year</string>
+    <string name="player_info_edit_month">Month</string>
+    <string name="player_info_edit_day">Day</string>
+    <string name="player_info_day">day</string>
+    <!-- 04-8-2-1 -->
+    <string name="player_info_photo_select">Photo</string>
+    <string name="player_tel">Tel</string>
+    <string name="player_email">Email</string>
+    <string name="player_camera">Camera</string>
+    <string name="player_file">File</string>
+    <!-- 04-8-2-4 -->
+    <string name="player_info_tel_type_home">Home</string>
+    <string name="player_info_tel_type_work">Work</string>
+    <string name="player_info_tel_type_mobile">Mobile</string>
+    <string name="player_info_tel_type_other">Other</string>
+    <string name="player_info_tel_type_custom">Custom</string>
+
+    <!-- 04-8-2-4 -->
+    <string name="player_info_address_type_home">Home</string>
+    <string name="player_info_address_type_work">Work</string>
+    <string name="player_info_address_type_other">Other</string>
+    <string name="player_info_address_type_custom">Custom</string>
+
+    <!-- 04-8-3-->
+    <string name="player_info_membership">Membership</string>
+    <string name="player_info_membership_id_type">ID type</string>
+    <string name="player_info_membership_id">ID</string>
+    <string name="player_info_membership_create_date">End date</string>
+    <string name="player_info_membership_effective_date">Effective date</string>
+    <string name="player_info_membership_annual_fee">Annual fee</string>
+    <string name="player_info_membership_payment_date">Payment date</string>
+    <string name="player_info_membership_end_date">End date</string>
+    <string name="player_info_membership_send_email">Send email to member</string>
+    <!-- 04-8-3-1-->
+    <string name="player_info_renewal">Renewal</string>
+    <string name="player_info_renewal_annual_fee">Annual fee</string>
+    <string name="player_info_renewal_split">Split into balance</string>
+    <string name="player_info_renewal_end_date">End date</string>
+    <string name="player_info_renewal_payment_pattern">Payment method</string>
+    <!-- 04-8-4-->
+
+    <string name="player_info_password_title">Player 1</string>
+    <string name="player_info_password_user">Username</string>
+    <string name="player_info_password_password">Password</string>
+    <!-- 04-8-5-->
+
+    <string name="player_info_balance_account_title">Balance account</string>
+    <string name="player_info_balance_account_remaining">Balance</string>
+    <string name="player_info_balance_account">Account</string>
+    <string name="player_info_balance_account_passcode">Passcode</string>
+    <string name="player_info_balance_account_pre_pay">Pre-pay</string>
+    <string name="player_info_balance_account_overdraft">Credit</string>
+    <string name="player_info_balance_account_time_limit">Time limit</string>
+
+    <!-- 04-8-6-->
+    <string name="player_info_purchase_history">Purchase history</string>
+    <string name="player_info_purchase_refund">Refund</string>
+    <!-- 04-8-6-1-->
+    <string name="play_purchase_history_deposit">Deposit</string>
+    <string name="play_purchase_history_signature">Signature</string>
+    <string name="play_purchase_history_send_email">Send the receipt by email</string>
+    <string name="play_purchase_history_send_sms">Send the receipt by sms</string>
+    <string name="play_purchase_history_paid">Paid</string>
+    <string name="play_purchase_history_unpaid">Unpaid</string>
+    <!-- 04-8-6-3-->
+    <string name="play_refunded">REFUNDED</string>
+    <string name="play_refund">Refund</string>
+    <string name="play_refund_payment">Payment pattern</string>
+    <string name="play_refund_aa">Share with </string>
+    <string name="play_refund_message">Tips:The way your refund is processed depends on your original payment method.</string>
+    <string name="play_refund_confirm">Refund confirmation</string>
+    <string name="play_refund_tips">Tips:</string>
+
+    <!-- 04-8-7-->
+    <string name="play_reservations">Reservations</string>
+    <!-- 04-8-8-->
+    <string name="play_past_booking">Past booking</string>
+
+    <!--06-2-1-->
+    <string name="shopping_pay_title">Confirm to pay</string>
+    <string name="shopping_pay_applay_discount">Apply discount</string>
+    <string name="shopping_pay_account">Account</string>
+    <string name="shopping_pay_balance">Balance</string>
+    <string name="shopping_pay_passcode">Passcode</string>
+    <string name="shopping_pay_discount_reason">Discount reason</string>
+    <string name="shopping_pay_discount_hit">Discount</string>
+    <string name="shopping_pay_manager">Manager</string>
+    <string name="shopping_pay_password">Password</string>
+    <string name="shopping_pay_subtotal">Subtotal :</string>
+    <string name="shopping_pay_tax">Tax :</string>
+    <string name="shopping_pay_discount">Discount :</string>
+    <string name="shopping_pay_deposit">Deposit :</string>
+    <string name="shopping_pay_total">Total :</string>
+    <string name="shopping_pay_confirm_payment">Confirm payment</string>
+    <string name="shopping_pay_payment_pattern">Payment method</string>
+    <string name="shopping_pay_payment_pattern_default">Pay cash</string>
+    <string name="shopping_pay_deposit_insufficient">Deposit is insufficient</string>
+
+
+    <!-- 11-1-->
+    <string name="customer_edit_title">Customers</string>
+    <string name="life_member_title">Life member</string>
+
+    <!-- message -->
+    <string name="msg_common_network_error">The request timed out, please check the network and try later.</string>
+    <string name="msg_common_confirm_delete">Delete confirm</string>
+    <string name="msg_no_more_rental">No more rental product</string>
+    <string name="msg_booking_reserve_the_time_past">Error: this time has past</string>
+    <string name="msg_please_choose_product">Please choose product!</string>
+    <string name="msg_no_more_product">Sorry! No more {0}!</string>
+    <string name="msg_choose_only_one_product">Choose only one product!</string>
+    <string name="msg_the_total_quantity_will_be_changed_to">The total quantity will be changed to {0}.</string>
+    <string name="msg_refunds_can_not_exceed_the_total_amount">Refunds can\'t exceed the total amount！</string>
+    <string name="msg_send_success">Send success!</string>
+    <string name="msg_this_time_has_been_reserved">This time has been reserved！</string>
+    <string name="msg_confirm_pay_deposit_check_out">Deposit：{0} (Return the deposit {1})</string>
+    <string name="msg_confirm_pay_deposit_pay">Deposit：{0} (Available deposit {1})</string>
+    <string name="msg_confirm_pay_deposit_0_check_out">Deposit：{0}</string>
+    <string name="msg_confirm_pay_deposit_0_pay">Deposit：{0}</string>
+    <string name="msg_confirm_pay_wether_to_return_times">Wether to return times?</string>
+    <string name="msg_end_date_must_be_later_than_effective_date">End date must be later than the Effective date!</string>
+    <string name="msg_agent_can_not_book_in_event_time">Agent can not book in event time</string>
+    <string name="msg_no_signature">There is no signature！</string>
+    <string name="msg_error_this_time_has_past">Error: this time has past！</string>
+    <!-- Login -->
+    <string name="msg_login_success">Login succeeded</string>
+    <string name="msg_login_enter_your_username_and_password">Enter your username and password</string>
+    <string name="msg_login_invalid_temp_password">invalid temp password</string>
+    <!-- Main -->
+    <string name="msg_main_application_exit_tile">Warning</string>
+    <string name="msg_main_application_exit_message">Exit?</string>
+    <string name="msg_no_discount_message"> :No avaliable discount green-fee today, need to pay full.</string>
+    <string name="msg_member_ship_is_overdue_full_fee">{0}:The membership has expired, should pay as a walkin.</string>
+    <string name="msg_member_ship_is_overdue_full_fee1">{0}:Membership is overdue.</string>
+
+    <string name="msg_one_tee_only">One tee start only!</string>
+    <!-- TeeTime -->
+    <string name="msg_prime_time_now_will_be_delete">Premier time now,so {0} will be deleted simultaneously！</string>
+    <string name="msg_sub_categories_must_be_filled">Subcategories must be filled!</string>
+
+    <!-- Agents -->
+    <string name="agents_delete_agents">Agents</string>
+    <string name="agents_delete_add">+</string>
+
+    <string name="agents_recharge_agent">Agent 1</string>
+    <string name="agents_recharge_tel">13333333333</string>
+    <string name="agents_recharge_email">agents1@gmail.com</string>
+    <string name="agents_recharge_pricing_table">Pricing table</string>
+    <string name="agents_recharge_balance_account">Balance account</string>
+    <string name="agents_recharge_money">$-2000</string>
+    <string name="agents_recharge_purchase_history">Purchase history</string>
+    <string name="agents_recharge_reservations">Reservations</string>
+    <string name="agents_recharge_past_booking">Past booking</string>
+    <string name="agents_recharge_username">Username</string>
+
+    <string name="add_agent_agent">Agent</string>
+    <string name="add_agent_person_in_charge">Person in charge</string>
+    <string name="add_agent_add_phone">Add phone</string>
+    <string name="add_agent_add_email">Add email</string>
+    <string name="add_agent_userName">Username</string>
+    <string name="add_agent_passWord">Password</string>
+    <string name="add_agent_notes">Notes</string>
+
+    <string name="pricing_table_choose_date">Choose Date</string>
+    <string name="pricing_table_startDate">Start date</string>
+    <string name="pricing_table_endDate">End date</string>
+    <string name="pricing_table_startTime">Start Time</string>
+    <string name="pricing_table_endTime">End Time</string>
+    <string name="pricing_table_addTime">Add time</string>
+    <string name="pricing_table_choose_product">Choose product</string>
+    <string name="pricing_table_green">Green</string>
+    <string name="pricing_table_caddie">Caddie</string>
+    <string name="agent_user_message_userName">Username</string>
+    <string name="agent_user_message_passWord">Password</string>
+
+
+    <string name="add_tee_time_setting_search_mes1">Sorry, your search \"</string>
+    <string name="add_tee_time_setting_search_mes2">\" did not match any names.</string>
+
+    <string name="shopping_product_search_mes1">Sorry, your search \"</string>
+    <string name="shopping_product_search_mes2">\" did not match any products.</string>
+
+
+    <!-- 05 Shopping setting -->
+    <string name="shop_setting_enable_price_of_subcategories">Enable price of subcategories</string>
+    <string name="shop_setting_choose_product_subcategories">Choose product-subcategories</string>
+    <string name="shop_setting_play_more_out">Play more OUT</string>
+    <string name="shop_setting_choose_product">Choose Product</string>
+    <string name="shop_setting_shoes">Shoes</string>
+    <string name="shop_setting_subcategories_edit">Subcategories edit</string>
+    <string name="shop_setting_pro">Pro</string>
+    <string name="shop_setting_invalid_package">Invalid package</string>
+    <string name="shop_setting_picture">Picture</string>
+    <string name="shop_setting_qty">Qty</string>
+    <string name="shop_setting_umbrella">Umbrella</string>
+    <string name="shop_setting_course">Course</string>
+    <string name="shop_setting_promote_edit">Offers edit</string>
+    <string name="shop_setting_qty_of_subcategories">Qty of subcategories</string>
+    <string name="shop_setting_trolley">Trolley</string>
+    <string name="shop_setting_product_edit_package">Product edit-Package</string>
+    <string name="shop_setting_code">Code</string>
+    <string name="shop_setting_end_time">End date</string>
+    <string name="shop_setting_towel">Towel</string>
+    <string name="shop_setting_product_edit_rental">Product edit-Rental</string>
+    <string name="shop_setting_play_more_in">Play more IN</string>
+    <string name="shop_setting_price">Price</string>
+    <string name="shop_setting_package_name">Package name</string>
+    <string name="shop_setting_holes">Holes</string>
+    <string name="shop_setting_package">Package</string>
+    <string name="shop_setting_clubs">Clubs</string>
+    <string name="shop_setting_caddie">Caddie</string>
+    <string name="shop_setting_return_time">Return time</string>
+    <string name="shop_setting_9_holes">9 holes</string>
+    <string name="shop_setting_promote_price">Offers price</string>
+    <string name="shop_setting_shopping_setting">shopping setting</string>
+    <string name="shop_setting_reserve_fee">Reserve fee</string>
+    <string name="shop_setting_enable_subcategories">Enable subcategories</string>
+    <string name="shop_setting_ok">OK</string>
+    <string name="shop_setting_subcategories">Subcategories</string>
+    <string name="shop_setting_cart">Cart</string>
+    <string name="shop_setting_others">Others</string>
+    <string name="shop_setting_play_more_9_holes">Play 9 more holes</string>
+    <string name="shop_setting_promote">Offers</string>
+    <string name="shop_setting_type">Type</string>
+    <string name="shop_setting_rental">Rental</string>
+    <string name="shop_setting_reserve_product">Reserve product</string>
+    <string name="shop_setting_product_name">Product name</string>
+    <string name="shop_setting_total">Total</string>
+    <string name="shop_setting_type_edit">Type edit</string>
+    <string name="shop_setting_add_a_type">Add a Type</string>
+    <string name="shop_setting_price_of_subcategories">Price of subcategories</string>
+    <string name="shop_setting_green">Green</string>
+    <string name="shop_setting_start_time">Start date</string>
+    <string name="shop_setting_product_edit_pro">Product edit-Pro</string>
+    <string name="shop_setting_product_edit">Product edit-</string>
+    <string name="shop_setting_enter_product_name">Please input product name!</string>
+    <string name="shop_setting_enter_price">Please input price!</string>
+    <string name="shop_setting_enter_qty">Please input quantity!</string>
+    <string name="shop_setting_unlimited_qty">Unlimited Qty</string>
+
+
+    <!-- 06 Shopping -->
+    <string name="shopping_all">ALL</string>
+    <string name="shopping_account">Account</string>
+    <string name="shopping_purchase_rental">Purchase-Rental</string>
+    <string name="shopping_tax">Tax</string>
+    <string name="shopping_check_out">Check out</string>
+    <string name="shopping_pro">Pro</string>
+    <string name="shopping_manager">Manager</string>
+    <string name="shopping_send">Send</string>
+    <string name="shopping_credit_card">Credit Card</string>
+    <string name="shopping_confirm_payment">Confirm payment</string>
+    <string name="shopping_payment_succeeded">Payment Complete</string>
+    <string name="shopping_go_fifty_fifty">Go fifty-fifty</string>
+    <string name="shopping_balance_account">Balance account</string>
+    <string name="shopping_send_the_receipt_by_sms">Send the receipt by sms</string>
+    <string name="shopping_payment_pattern">Payment pattern</string>
+    <string name="shopping_deposit">Deposit</string>
+    <string name="shopping_payment_failed">Payment failed</string>
+    <string name="shopping_send_the_receipt_by_email">Send the receipt by email</string>
+    <string name="shopping_subtotal">Subtotal</string>
+    <string name="shopping_confirm_to_pay">Confirm to pay</string>
+    <string name="shopping_apply_discount">Apply discount</string>
+    <string name="shopping_package">Package</string>
+    <string name="shopping_split">Split</string>
+    <string name="shopping_balance">Balance</string>
+    <string name="shopping_add_a_customer">Add a customer</string>
+    <string name="shopping_discount">Discount</string>
+    <string name="shopping_total">Total</string>
+    <string name="shopping_cancel">Cancel</string>
+    <string name="shopping_passcode">Passcode</string>
+    <string name="shopping_repay">Retry</string>
+    <string name="shopping_confirm">Confirm</string>
+    <string name="shopping_pay_cash">Pay cash</string>
+    <string name="shopping_shopping">Shopping</string>
+    <string name="shopping_product_code">Product code</string>
+    <string name="shopping_cart">Cart</string>
+    <string name="shopping_password">Password</string>
+    <string name="shopping_third_party_payment">Third-Party payment</string>
+    <string name="shopping_others">Others</string>
+    <string name="shopping_purchase">Purchase</string>
+    <string name="shopping_discount_reason">Discount reason</string>
+    <string name="shopping_paid">PAID</string>
+    <string name="shopping_promote">Offers</string>
+    <string name="shopping_voucher">Coupon</string>
+    <string name="shopping_rental">Rental</string>
+    <string name="shopping_choose_other_payment">Choose other payment method</string>
+    <string name="shopping_package_available">Package available</string>
+    <string name="shopping_package_shop">Package shop</string>
+    <string name="shopping_aa_err_mes"> The amount should be consistent!</string>
+    <string name="shopping_purchase_err_mes">Unselected product</string>
+    <string name="shopping_aa_tow_err_mes">Go fifty-fifty need at least 2 people</string>
+    <string name="shopping_aa_with">Share With </string>
+    <string name="shopping_used_deposit">Deposit:</string>
+
+    <!-- 07 Staff -->
+    <string name="staff_staff">Staff</string>
+    <string name="staff_caddies">Caddies</string>
+    <string name="staff_department">Section</string>
+    <string name="staff_authority">Authority</string>
+    <string name="staff_level">Level</string>
+    <string name="staff_tee_times">Tee times</string>
+    <string name="staff_events">Events</string>
+    <string name="staff_shops">Shops</string>
+    <string name="staff_customers">Customers</string>
+    <string name="staff_agents">Agents</string>
+    <string name="staff_news">News</string>
+    <string name="staff_discount">Discount</string>
+    <string name="staff_edit_course_data">Edit course data</string>
+    <string name="staff_edit_tee_times">Edit tee times</string>
+    <string name="staff_check_in_undo">Check in/Undo</string>
+    <string name="staff_check_out">Check out</string>
+    <string name="staff_see_other_reservation">See other reservation</string>
+    <string name="staff_shop_edit">Shop settings</string>
+    <string name="staff_product_edit">Product edit</string>
+    <string name="staff_selling">Selling</string>
+    <string name="staff_promote">Offers</string>
+    <string name="staff_rental_shop">Rental shop</string>
+    <string name="staff_package">Package</string>
+    <string name="staff_pro_shop">Pro shop</string>
+    <string name="staff_minus_bad_inventory">Minus bad inventory</string>
+    <string name="staff_add_inventory">Add inventory</string>
+    <string name="staff_customers_type_edit">Customers type edit</string>
+    <string name="staff_profile_edit">Profile edit</string>
+    <string name="staff_member">Member</string>
+    <string name="staff_non_member">Non-member</string>
+    <string name="staff_recharge">Recharge</string>
+    <string name="staff_membership_management">Membership management</string>
+    <string name="staff_refund">Refund</string>
+    <string name="staff_agents_browse">Agents</string>
+    <string name="staff_agents_edit">Agents edit</string>
+    <string name="staff_pricing_table">Pricing table</string>
+    <string name="staff_see_other_department">See other section</string>
+    <string name="staff_news_edit">News edit</string>
+    <string name="staff_add_level">Add level</string>
+    <string name="staff_manager">Manager</string>
+    <string name="staff_add_a_profile">Add a profile</string>
+    <string name="staff_no">No.</string>
+    <string name="staff_add_phone">Add phone</string>
+    <string name="staff_add_email">Add email</string>
+
+    <string name="staff_fill_name">Enter name!</string>
+    <string name="staff_fill_username">Enter username!</string>
+    <string name="staff_fill_password">Enter password!</string>
+    <string name="staff_select_level">Choose level!</string>
+    <string name="staff_fill_number">Enter number!</string>
+    <string name="staff_fill_phone_number">Enter phone number!</string>
+    <string name="staff_add_one_phone_number_at_least">Enter at least one phone number!</string>
+    <string name="staff_fill_email">Enter email address!</string>
+    <string name="staff_add_one_email_at_least">Enter at least one email address!</string>
+    <string name="error_username_format">Username format is incorrect! Please input the Mobile number or Email address</string>
+    <string name="error_email_address_format">Email address format is incorrect!</string>
+    <string name="error_caddie_level_format">Caddie level format is incorrect!</string>
+
+
+    <!-- 09 Events -->
+    <string name="event_event">Event</string>
+    <string name="event_pricing_table">Pricing table</string>
+    <string name="event_date">Date</string>
+    <string name="event_date_1">Date1</string>
+    <string name="event_start_time">Start time</string>
+    <string name="event_end_time">End time</string>
+    <string name="event_gap_time">Gap time</string>
+    <string name="event_course">Course</string>
+    <string name="event_add_date">Add date</string>
+    <string name="event_choose_product">Choose product</string>
+    <string name="event_rental_shop">Rental shop</string>
+    <string name="event_pro_shop">Pro shop</string>
+    <string name="event_package">Package</string>
+    <string name="event_others">Others</string>
+
+    <!-- 10 Agents -->
+    <string name="agents_agents">Agents</string>
+    <string name="agents_recharge">Recharge</string>
+    <string name="agents_pricing_table">Pricing table</string>
+    <string name="agents_balance_account">Balance Account</string>
+    <string name="agents_purchase_history">Purchase history</string>
+    <string name="agents_reservations">Reservations</string>
+    <string name="agents_past_booking">Past booking</string>
+    <string name="agents_add_an_agent">Add a profile</string>
+    <string name="agents_agent">Agent</string>
+    <string name="agents_person_in_charge">Person in charge</string>
+    <string name="agents_add_phone">Add phone</string>
+    <string name="agents_add_email">Add email</string>
+    <string name="agents_notes">Notes</string>
+    <string name="agents_date">Date</string>
+    <string name="agents_start_time">Start time</string>
+    <string name="agents_end_time">End time</string>
+    <string name="agents_add_time">Add time</string>
+    <string name="agents_choose_product">Choose product</string>
+    <string name="agents_off">OFF</string>
+    <string name="agents_total">Total</string>
+    <string name="agent_fill_agent">Enter agent\'s name! </string>
+    <string name="agent_fill_person_in_charge">Enter person in charge!</string>
+    <string name="agent_fill_user_name">Enter Username!</string>
+    <string name="agent_fill_pass_word">Enter PassWord!</string>
+
+
+    <!-- 11 Customers -->
+    <string name="customers_customers">Customers</string>
+    <string name="customers_add">Add</string>
+    <string name="customers_member">Member</string>
+    <string name="customers_non_member">Non-Member</string>
+    <string name="customers_type">Type</string>
+    <string name="customers_period_of_validity">Period of validity</string>
+    <string name="customers_end_date">End Date</string>
+    <string name="customers_period_in_months">Period in Months</string>
+    <string name="customers_month">m</string>
+    <string name="customers_annual_fee">Member Fee</string>
+    <string name="customers_guest">Guest</string>
+    <string name="customers_guest_show">Number</string>
+    <string name="customers_guest_per_day">Guest / day</string>
+    <string name="customers_sign_when_check_in">Sign when check in</string>
+
+    <string name="customers_sign_for_guest">Sign for guest</string>
+
+    <string name="customers_over_draft">Credit</string>
+    <string name="customers_time_limit">Time limit</string>
+
+    <string name="customers_time_limit_show">days</string>
+    <string name="customers_green_general_price">Green general price</string>
+    <string name="customers_off">OFF</string>
+    <string name="customers_pricing_table">Pricing table</string>
+    <string name="customers_date">Date</string>
+    <string name="customers_start_time">Start time</string>
+    <string name="customers_end_time">End time</string>
+    <string name="customers_add_time">Add time</string>
+    <string name="customers_guest_sign">Guest</string>
+    <string name="customers_choose_product">Choose product</string>
+    <string name="customers_member_total">Member total</string>
+    <string name="customers_guest_total">Guest total</string>
+    <string name="customers_date_of_birth">Date of birth</string>
+    <string name="customers_tel">Tel</string>
+    <string name="customers_zip_code">Zip code</string>
+
+    <!-- TAG -->
+    <string name="tag_home">Home</string>
+    <string name="tag_work">Work</string>
+    <string name="tag_mobile">Mobile</string>
+    <string name="tag_other">Other</string>
+    <string name="tag_custom">Custom</string>
+    <!-- PAY -->
+    <string name="tag_pay_cash">Pay cash</string>
+    <string name="tag_balance_account">Balance account</string>
+    <string name="tag_bank_transfer">Bank transfer</string>
+    <string name="tag_voucher">Coupons</string>
+    <string name="tag_credit_card">Credit card</string>
+    <string name="tag_third_party">Third-Party payment</string>
+    <string name="tag_third_party_ui_show">Third-Party</string>
+    <!-- Calendar -->
+    <string name="calendar_jan">Jan</string>
+    <string name="calendar_feb">Feb</string>
+    <string name="calendar_mar">Mar</string>
+    <string name="calendar_apr">Apr</string>
+    <string name="calendar_may">May</string>
+    <string name="calendar_jun">Jun</string>
+    <string name="calendar_jul">Jul</string>
+    <string name="calendar_aug">Aug</string>
+    <string name="calendar_sep">Sep</string>
+    <string name="calendar_oct">Oct</string>
+    <string name="calendar_nov">Nov</string>
+    <string name="calendar_dec">Dec</string>
+    <string name="calendar_sun">SUN</string>
+    <string name="calendar_mon">MON</string>
+    <string name="calendar_tue">TUE</string>
+    <string name="calendar_wed">WED</string>
+    <string name="calendar_thu">THU</string>
+    <string name="calendar_fri">FRI</string>
+    <string name="calendar_sat">SAT</string>
+
+    <!-- createChooser-->
+    <string name="create_chooser_send_mail">Send Mail To</string>
+
+
+    <!-- Tee Times -->
+    <string name="tee_times_block_times">Block times</string>
+    <string name="tee_times_two_tee_start">Two tee start</string>
+    <string name="tee_times_two_and_three_tee_start">Two/Three tee start</string>
+    <string name="tee_times_nine_holes_only">9 holes only</string>
+    <string name="tee_times_member_only">Member only</string>
+    <string name="tee_times_prime_time">Prime time</string>
+    <string name="tee_times_booking_here">Bookings here</string>
+    <string name="tee_times_tee_times">Tee times</string>
+    <string name="tee_times_segment_times">Segment times</string>
+    <string name="tee_times_tee_times_setting">Tee time setting</string>
+
+    <string name="tee_times_tee_times_format">Tee time format</string>
+
+    <string name="tee_times_ok">OK</string>
+    <string name="tee_times_start_date">Start date</string>
+    <string name="tee_times_end_date">End date</string>
+    <string name="tee_times_sunrise">Sunrise</string>
+    <string name="tee_times_sunset">Sunset</string>
+    <string name="tee_times_first_tee_time">First Tee Time</string>
+    <string name="tee_times_last_tee_time">Last Tee Time</string>
+    <string name="tee_times_gap_time">Gap</string>
+    <string name="tee_times_transfer_time">Transfer time</string>
+
+    <string name="tee_times_not_segment_times">Tee times hasn\'t been set!</string>
+    <string name="tee_times_select_date">Choose date!</string>
+    <string name="tee_times_selected_different_tee_times">Choose different tee times!</string>
+    <string name="tee_times_selected_not_tee_times_setting_date">Choose the date which hasn\'t set tee times!</string>
+    <string name="tee_times_selected_not_serial_dates">The date you choose isn\'t continuous!</string>
+    <string name="tee_times_has_been_reserved">It has been reserved, can\'t be changed!</string>
+    <string name="tee_times_cover_old_tee_times">Replace current tee time settings?</string>
+
+    <!-- Segment Times -->
+    <string name="segment_times_segment_times">Segment times</string>
+    <string name="segment_times_ok">OK</string>
+    <string name="segment_times_delete">Delete</string>
+    <string name="segment_times_expand">Expand</string>
+    <string name="segment_times_hide">Hide</string>
+    <string name="segment_times_two_tee_start">Two tee start</string>
+    <string name="segment_times_nine_holes_only">9 holes only</string>
+    <string name="segment_times_block_times">Block times</string>
+    <string name="segment_times_member_only">Member only</string>
+    <string name="segment_times_three_tee_start">Three tee start</string>
+    <string name="segment_times_prime_time">Prime time</string>
+    <string name="segment_times_course">Course</string>
+    <string name="segment_times_start_time">Start Time</string>
+    <string name="segment_times_end_time">End Time</string>
+    <string name="segment_times_all_reserved">All reserved by members</string>
+    <string name="segment_times_member_type">Member Type</string>
+    <string name="segment_times_life_member">Life Member</string>
+    <string name="segment_times_family_member">Family Member</string>
+    <string name="segment_times_three_to_reserve">When gap is blank，≥3 to reserve</string>
+
+    <string name="segment_times_start_time_input">Enter start time!</string>
+    <string name="segment_times_end_time_input">Enter end time!</string>
+    <string name="segment_times_time_input">End time must be later than the start time!</string>
+    <string name="segment_times_area_input">Enter complete transfer info!</string>
+    <string name="segment_times_cannot_choose_itself">You can\'t choose to transfer to the present course!</string>
+    <string name="segment_times_area_has_been_chose">This course isn\'t available, choose another one!</string>
+    <string name="segment_times_member_type_chose">Choose one member type at least!</string>
+    <string name="segment_times_area_chose">Choose one course at least!</string>
+    <string name="segment_times_add_successfully">Add it successfully!</string>
+    <string name="segment_times_add_failed">Failed to add it!</string>
+    <string name="segment_times_delete_successfully">Delete successfully!</string>
+
+    <!-- Rental Type -->
+    <string name="rental_type_caddie">Caddie</string>
+    <string name="rental_type_cart">Cart</string>
+    <string name="rental_type_clubs">Clubs</string>
+    <string name="rental_type_shoes">Shoes</string>
+    <string name="rental_type_trolley">Trolley</string>
+    <string name="rental_type_umbrella">Umbrella</string>
+    <string name="rental_type_towel">Towel</string>
+
+    <!-- booking message -->
+    <string name="booking_message_member_only">Member only</string>
+    <string name="booking_message_prime_time">Prime time</string>
+    <string name="booking_message_price_discount">Price discount</string>
+    <string name="booking_message_event_time">Event time</string>
+    <string name="booking_message_block_time">Block time</string>
+    <string name="booking_message_transfer_time">Transfer time</string>
+
+    <string name="msg_loaded">All loaded</string>
+    <string name="msg_passwords_does_not_match">Passwords didn\'t match, please enter again</string>
+
+
+    <!-- quick entrance-->
+    <string name="quick_welcome">Welcome</string>
+    <string name="quick_check_in">Check in</string>
+    <string name="quick_undo_check_in">Undo check in</string>
+    <string name="quick_shopping">Shopping</string>
+    <string name="quick_check_out">Check out</string>
+    <string name="quick_recharge">Recharge</string>
+    <string name="quick_purchase_history">Purchase history</string>
+    <string name="quick_reservations">Reservations</string>
+    <string name="quick_customer_info">Customer info</string>
+    <string name="quick_add_a_profile">Add a profile</string>
+
+    <string name="quick_bag_unbind"> Bag \n unbind</string>
+    <string name="quick_caddie_unbind">Caddie \n unbind</string>
+
+
+    <string name="segment_time_title_every_week">every {0} in {1}</string>
+    <string name="segment_time_title_whole_month">{0} whole month</string>
+
+    <string name="custom_mail_tag_must_not_be_null">Custom email tag must not be null!</string>
+    <string name="custom_phone_tag_must_not_be_null">Custom phone tag must not be null!</string>
+
+    <string name="date_format_yyyy_mm_dd">YY/MM/DD</string>
+    <string name="date_format_mm_dd_yyyy">MM/DD/YY</string>
+    <string name="date_format_dd_mm_yyyy">DD/MM/YY</string>
+
+    <string name="select_address_region">Region</string>
+    <string name="select_address_selected">Selected</string>
+
+    <!-- chart -->
+    <string name="chart_total">Total</string>
+    <string name="chart_total_revenue">Total revenue</string>
+    <string name="chart_yesterday">Yesterday</string>
+    <string name="chart_last_week">Last week</string>
+    <string name="chart_last_month">Last month</string>
+    <string name="chart_last_year">Last year</string>
+    <string name="chart_revenue_from">Revenue from </string>
+    <string name="chart_check_in">Check in </string>
+    <string name="chart_per_capita">Per capita</string>
+    <string name="chart_revenue">Revenue</string>
+    <string name="chart_label_format_02">{0} {1}{4}{2} {3}</string>
+    <string name="chart_label_format_03">{0} {1}</string>
+    <string name="chart_label_format_04">{0} {1}</string>
+    <string name="chart_identity_changed_when_check_in">Identity changed when {0} check in</string>
+    <string name="chart_account_receivable">Account receivable</string>
+    <string name="chart_balance">Balance</string>
+    <string name="chart_title_03">{0} : {1}</string>
+    <string name="chart_title_04">{0} : {1}</string>
+    <string name="refund_method">Refund method</string>
+    <string name="overdue_mes">Membership is overdue！</string>
+    <string name="available_deposit_pay_mes">(Available deposit {0})</string>
+    <string name="available_deposit_check_out_mes">(Return the deposit {0})</string>
+    <string name="chart_detailed_ide_change_title">Identity change record  </string>
+    <string name="chart_players">\u0020players\'</string>
+    <string name="chart_ide_change_mes">\u0020identity changed when checked in</string>
+    <string name="no_caddies_mes"> Caddies are all on the course</string>
+    <string name="chart_analysis_discount">Discount</string>
+
+
+    <string name="pricing_table_guests_days">Guests/Day</string>
+    <string name="pricing_table_times">Times</string>
+    <string name="pricing_table_total_num">Total number of times</string>
+    <string name="pricing_table_quick_choose">Quick choose product</string>
+    <string name="pricing_table_custom_choose">Custom choose product</string>
+    <string name="pricing_table_day">Day</string>
+    <string name="pricing_table_number">Number</string>
+
+    <string name="pricing_table_holiday">Holiday</string>
+
+    <string name="pricing_table_weekday">Weekday</string>
+
+
+    <!--DateSetting -->
+    <string name="administration_advanced_setting_comment">H-Holiday\nW-Weekday</string>
+    <string name="administration_special_title">Special days</string>
+    <string name="administration_date_setting">Date setting</string>
+    <string name="administration_date_setting_comment">Set weekday, holiday and special days</string>
+    <string name="administration_date_advanced_setting">Advanced settings</string>
+    <string name="administration_date_setting_generate">Generate</string>
+
+    <!--SpecialDayFragment-->
+    <string name="special_day_fragment_hint">Input name of special days.</string>
+    <string name="special_day_fragment_add">Add Special days</string>
+    <!--AdvancedSetting -->
+    <string name="advanced_setting_title">Advanced</string>
+
+    <!--ChooseDateFragment -->
+
+    <string name="choose_date_title">Choose</string>
+
+    <!--QuickChooseProduct -->
+    <string name="quick_choose_product_green">\</string>
+    <string name="pricing_choose_price">Choose price</string>
+    <string name="pricing_deduct">Deduct</string>
+    <string name="agents_open_tee_times">Open tee times</string>
+    <string name="agents_add_open_tee_times">Add Open tee times</string>
+    <string name="agents_edit_open_tee_times">Edit Open tee times</string>
+    <string name="pricing_group">Group</string>
+    <string name="agents_time_check">Start and end time can\'t be repeated!</string>
+    <string name="shops_rental_mes">No avaliable category</string>
+    <string name="itee_choose_customer">Choose customer</string>
+    <string name="tee_time_profile">Profile</string>
+    <string name="sign_by">Signed by</string>
+
+
+    <string name="search_booking">Booking</string>
+    <string name="search_on_course">On course</string>
+    <string name="search_check_out">Check out</string>
+    <string name="search_member">Member</string>
+    <string name="search_guest">Guest</string>
+    <string name="search_walk_in">WalkIn</string>
+    <string name="search_agent">Agent</string>
+    <string name="search_event">Event</string>
+
+
+    <string name="search_more">Search More</string>
+
+
+    <string name="advanced_setting">Advanced setting</string>
+
+    <string name="weekday_pace">Weekday pace</string>
+    <string name="holiday_pace">Holiday pace</string>
+
+
+    <string name="one_tee_start">One tee start</string>
+    <string name="two_tee_start">Two tee start</string>
+    <string name="three_tee_start">Three tee start</string>
+    <string name="mix_tee_start">Mix tee start</string>
+
+    <string name="choose_date_check">The date must be selected</string>
+
+
+    <string name="custom_start">Start</string>
+    <string name="custom_transfer">Transfer</string>
+    <string name="custom_9_holes">9 holes only</string>
+
+    <string name="custom_clear">Clear</string>
+
+    <string name="custom_clear_all">Clear all</string>
+
+    <string name="member_only">Member only</string>
+    <string name="prime_time">Prime time</string>
+
+
+    <string name="gap_3_check">When gap is blank,≥3 to reserve</string>
+
+
+    <string name="all_members">All reserved by members</string>
+
+    <string name="segment_err_mes_1">has been reserved, can‘t be changed.</string>
+    <string name="segment_err_mes_2">Please choose a format</string>
+    <string name="segment_custom_err_1">Could not choose the time that has been set！</string>
+    <string name="segment_custom_mes_1">You want</string>
+    <string name="segment_custom_mes_2">All the tee times can be reserved</string>
+    <string name="segment_custom_mes_3">Block all the tee times</string>
+    <string name="limit_err_1">Please choose the member type at least one.</string>
+    <string name="tee_time_limit">Tee time limit</string>
+    <string name="transfer_b">Transfer time more  than start time！</string>
+    <string name="transfer_s">Transfer time less  than start time！</string>
+    <string name="segment_custom_mes_4">The start and transfer can not be set on the same area. </string>
+    <string name="q_9">⑨</string>
+
+
+    <string name="segment_setting_check1">Please choose date!</string>
+    <string name="segment_setting_check2">Please choose first tee time！</string>
+    <string name="segment_setting_check3">Please choose last tee time!</string>
+
+    <string name="advanced_setting_check">Date setting haven\'t been set!</string>
+
+    <string name="segment_setting_alert_mes">No Tee times today,do you want to set it now?</string>
+    <string name="segment_setting_alert_btn_1">Go to set</string>
+    <string name="segment_setting_alert_btn_2">Not now</string>
+
+
+    <string name="tee_time_save_reservation">Please save the reservation first</string>
+    <string name="chart_view_title">Chart</string>
+    <!-- NFC  -->
+
+    <string name="nfc_card_not_found">Not found this card in system,Please input a Number for the card for recoreding!</string>
+    <string name="title_activity_privacy">PrivacyActivity</string>
+
+    <!-- 支付相关Values -->
+    <string name="paytype_cash">Cash</string>
+    <string name="paytype_cash_no">1</string>
+
+    <string name="paytype_balance">Balance</string>
+    <string name="paytype_balance_no">5</string>
+
+    <string name="paytype_card">Card</string>
+    <string name="paytype_card_no">3</string>
+
+    <string name="paytype_zhifubao">AliPay</string>
+    <string name="paytype_zhifubao_no">10</string>
+
+    <string name="paytype_wechat">WeChat</string>
+    <string name="paytype_wechat_no">4</string>
+
+    <string name="paytype_sign">Sign</string>
+    <string name="paytype_sign_no">9</string>
+
+    <string name="paytype_sign_company">Company Sign</string>
+    <string name="paytype_sign__company_no">21</string>
+
+    <string name="paytype_sign_gudong">Stockholder Sign</string>
+    <string name="paytype_sign_gudong_no">22</string>
+
+    <string name="paytype_vouchers">Vouchers</string>
+    <string name="paytype_vouchers_no">2</string>
+
+    <string name="paytype_cheque">Cheque</string>
+    <string name="paytype_cheque_no">8</string>
+
+    <string name="paytype_transfer">Bank Transfer</string>
+    <string name="paytype_transfer_no">6</string>
+
+    <!--<string name="paytype_sign_company">公司签单</string>-->
+
+    <!--<string name="paytype_sign_stockholder">股东签单</string>-->
+
+    <!--<string name="paytype_transfer">银行转账</string>-->
+
+
+</resources>

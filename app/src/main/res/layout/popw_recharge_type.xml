@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:id="@+id/ll_hour_and_min_container"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_hour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|left"
+                android:layout_centerVertical="true"
+                android:textColor="@color/common_black"
+                android:text="@string/recharge" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:id="@+id/tv_currency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/tv_hour"
+                android:gravity="center_vertical|left"
+                android:layout_centerVertical="true"
+                android:textColor="@color/common_black"
+                android:textSize="23sp" />
+
+
+            <cn.situne.itee.view.IteeMoneyEditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:singleLine="true"
+                android:layout_toRightOf="@id/tv_currency"
+                android:background="@drawable/textview_corner"
+                android:inputType="numberDecimal"
+                android:id="@+id/et_charge_num" />
+
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:id="@+id/rl_ok_and_cancel_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <cn.situne.itee.view.IteeTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@drawable/item_click"
+                android:textColor="@color/common_blue"
+                android:id="@+id/tv_recharge_type_cash"
+                android:text="@string/recharge_type_cash" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="?android:attr/listDivider" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@drawable/item_click"
+                android:textColor="@color/common_blue"
+                android:id="@+id/tv_recharge_type_vouchers"
+                android:text="@string/recharge_type_vouchers" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="?android:attr/listDivider" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@drawable/item_click"
+                android:textColor="@color/common_blue"
+                android:id="@+id/tv_recharge_type_credit_card"
+                android:text="@string/recharge_type_credit_card" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="?android:attr/listDivider" />
+
+            <cn.situne.itee.view.IteeTextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textColor="@color/common_blue"
+                android:layout_height="50dp"
+                android:background="@drawable/item_click"
+                android:id="@+id/tv_recharge_type_Third_party"
+                android:text="@string/recharge_type_Third_party" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
